@@ -36,14 +36,14 @@ class ReviewController extends Controller
      */
     public function store(Request $request)
     {
-        $reviewData = array(
-            'name' => $request->name,
-            'rating' => $request->rating,
-            'content' => $request->content,
-            'status' => 'hidden'
-        );
+        $data = $request->validate([
+            'name' => 'required|string',
+            'rating' => 'required|numeric',
+            'content' => 'required|string'
+        ]);
+        $data['status'] = 'hidden';
 
-        $reviewId = ModelReview::create($reviewData);
+        $reviewId = ModelReview::create($data);
 
         return redirect('/');
     }

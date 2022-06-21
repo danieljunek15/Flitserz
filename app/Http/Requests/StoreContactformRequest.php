@@ -24,11 +24,11 @@ class StoreContactformRequest extends FormRequest
     public function rules()
     {
         return [
-            'name' => 'required',
-            'email' => 'required',
-            'telnummer' => 'required',
-            'vragen' => 'required',
-            'gemeente' => 'required'
+            'name' => 'required|string',
+            'email' => 'required|email',
+            'telnummer' => 'required|numeric',
+            'vragen' => 'required|string',
+            'gemeente' => 'required|string'
         ];
     }
 }

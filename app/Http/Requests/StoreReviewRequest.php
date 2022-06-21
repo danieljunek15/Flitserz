@@ -24,9 +24,9 @@ class StoreReviewRequest extends FormRequest
     public function rules()
     {
         return [
-            'name' => 'required',
-            'rating' => 'required',
-            'content' => 'required'
+            'name' => 'required|string',
+            'rating' => 'required|numeric',
+            'content' => 'required|string'
         ];
     }
 }

@@ -41,8 +41,19 @@
             </div>
 
             <div class="bg-white m-6 shadow-xl rounded-2xl">
-                <b><p class="text-2xl font-mono m-6">Contact formulier</p></b>
+                <b>
+                    <p class="text-2xl font-mono m-6">Contact formulier</p>
+                </b>
                 <form action="/contact/create" method="POST">
+                @if ($errors->any())
+                    <div class="alert alert-danger">
+                        <ul>
+                            @foreach ($errors->all() as $error)
+                                <li>{{ $error }}</li>
+                            @endforeach
+                        </ul>
+                    </div>
+                @endif
                 @csrf
                     <div class="m-6 text-l">
                         <label for="name">Naam :</label>

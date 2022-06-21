@@ -47,6 +47,15 @@
             <div class="flex flex-col justify-start pb-6 pr-6 w-auto md:w-auto">
                 <div class="m-6 bg-white rounded-xl drop-shadow-2xl w-auto">
                     <form action="/revieuw/create" method="POST">
+                    @if ($errors->any())
+                        <div class="alert alert-danger">
+                            <ul>
+                                @foreach ($errors->all() as $error)
+                                    <li>{{ $error }}</li>
+                                @endforeach
+                            </ul>
+                        </div>
+                    @endif
                     @csrf
                         <div class="m-6 text-l">
                             
