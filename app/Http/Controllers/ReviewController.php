@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Http\Requests\StoreReviewRequest;
 use App\Models\ModelReview;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Session;
 
 class ReviewController extends Controller
 {
@@ -45,7 +46,7 @@ class ReviewController extends Controller
 
         $reviewId = ModelReview::create($data);
 
-        return redirect('/');
+        return redirect('/')->withSuccess('You have succesfully created a review and we will review it as soon as possible.');
     }
 
     /**
@@ -68,8 +69,10 @@ class ReviewController extends Controller
             ->where('status', '=', 'show')
             ->get();
         //where status = show
+        $session = Session::get('success');
         return view('revieuwShow', [
-            'reviewData' => $reviewData
+            'reviewData' => $reviewData,
+            'success' => $session
         ]);
     }
 

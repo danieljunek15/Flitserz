@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Http\Requests\StoreContactformRequest;
 use App\Models\ModelContactform;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Session;
 
 class ContactformController extends Controller
 {
@@ -46,7 +47,7 @@ class ContactformController extends Controller
         $data['status'] = 'Open';
         $tickedId = ModelContactform::create($data);
 
-        return redirect('/');
+        return redirect('/')->withSuccess('You have succesfully created a question, we will get in touch as soon as possible');
     }
 
     /**

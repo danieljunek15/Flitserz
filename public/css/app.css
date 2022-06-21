@@ -554,6 +554,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   min-width: -moz-min-content;
   min-width: min-content;
 }
+.min-w-fit {
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
+}
 .cursor-pointer {
   cursor: pointer;
 }

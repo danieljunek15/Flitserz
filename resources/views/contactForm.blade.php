@@ -57,14 +57,14 @@
                 @csrf
                     <div class="m-6 text-l">
                         <label for="name">Naam :</label>
-                        <input type="text" name="name" class="border-2 border-black rounded-xl hover:border-violet-800 shadow-xl"><br><br>
+                        <input type="text" name="name" value="{{ old('name') }}" class="border-2 border-black rounded-xl hover:border-violet-800 shadow-xl"><br><br>
                         <label for="email">E-mail :</label>
-                        <input type="email" name="email" class="border-2 border-black rounded-xl hover:border-violet-800 shadow-xl"><br><br>
+                        <input type="email" name="email" value="{{ old('email') }}" class="border-2 border-black rounded-xl hover:border-violet-800 shadow-xl"><br><br>
                         <label for="telnummer">Tel-num :</label>
-                        <input type="telnummer" name="telnummer" class="border-2 border-black rounded-xl hover:border-violet-800 shadow-xl"><br><br>
+                        <input type="telnummer" name="telnummer" value="{{ old('telnummer') }}" class="border-2 border-black rounded-xl hover:border-violet-800 shadow-xl"><br><br>
                         <label for="gemeente">Gemeente :</label>
-                        <input type="text" name="gemeente" class="border-2 border-black rounded-xl hover:border-violet-800 shadow-xl"><br><br>
-                        <textarea name="vragen" rows="8" class="w-full border-2 border-black rounded-xl hover:border-violet-800 shadow-xl p-2" placeholder="Kunt u uitgebreid uitleggen waarmee Flitserz u vandienst kan zijn?"></textarea><br><br>
+                        <input type="text" name="gemeente" value="{{ old('gemeente') }}" class="border-2 border-black rounded-xl hover:border-violet-800 shadow-xl"><br><br>
+                        <textarea name="vragen" value="{{ old('vragen') }}" rows="8" class="w-full border-2 border-black rounded-xl hover:border-violet-800 shadow-xl p-2" placeholder="Kunt u uitgebreid uitleggen waarmee Flitserz u vandienst kan zijn?">{{ old('vragen') }}</textarea><br><br>
                         <input type="submit" name="submit" class="px-6 py-1 bg-violet-300 hover:bg-violet-400 text-black rounded-lg border-2 border-violet-400 hover:border-violet-500 shadow-xl">
                     </div>
                 </form>

@@ -11,6 +11,10 @@
 </head>
 <body class="flex flex-col">
 
+    <button class="border-2">
+        <a href="{{ url('/logout') }}"> logout </a>
+    </button>
+
     <button>
         <a href="/ui/ticked">Tickets</a>
     </button>

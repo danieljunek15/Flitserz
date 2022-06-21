@@ -60,7 +60,7 @@
                         <div class="m-6 text-l">
                             
                             <label for="name">Naam :</label>
-                            <input type="text" name="name" class="border-2 border-black rounded-xl hover:border-violet-800 shadow-xl"><br><br>
+                            <input type="text" name="name" value="{{ old('name') }}" class="border-2 border-black rounded-xl hover:border-violet-800 shadow-xl"><br><br>
                             
                             <label for="rating">Rating :</label>
                             <select name="rating" id="rating" class="border-2 border-black rounded-xl hover:border-violet-800 shadow-xl">
@@ -76,7 +76,7 @@
                                 <option value="10">10</option>
                             </select><br><br>
                             
-                            <textarea name="content" rows="8" class="w-full border-2 border-black rounded-xl hover:border-violet-800 shadow-xl p-2" placeholder="Laat u feedback achter"></textarea><br><br>
+                            <textarea name="content" rows="8" class="w-full border-2 border-black rounded-xl hover:border-violet-800 shadow-xl p-2" placeholder="Laat u feedback achter">{{ old('content') }}</textarea><br><br>
 
                             <input type="submit" name="submit" class="px-6 py-1 bg-violet-300 hover:bg-violet-400 text-black rounded-lg border-2 border-violet-400 hover:border-violet-500 shadow-xl">
                         </div>

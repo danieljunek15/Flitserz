@@ -2,6 +2,12 @@
 <html lang="en">
 <head>
 
+@if(session()->has('success'))
+    <div class="alert alert-success">
+        {{ $success }}
+    </div>
+@endif
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <script src="{{ asset('js/app.js') }}" defer></script>
