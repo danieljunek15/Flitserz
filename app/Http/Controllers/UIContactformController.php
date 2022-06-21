@@ -11,36 +11,6 @@ class UIContactformController extends Controller
     {
         $this->middleware('auth');
     }
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function index()
-    {
-        //
-    }
-
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function create()
-    {
-        //
-    }
-
-    /**
-     * Store a newly created resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
-     */
-    public function store(Request $request)
-    {
-        //
-    }
 
     /**
      * Display the specified resource.
@@ -55,17 +25,6 @@ class UIContactformController extends Controller
         return view('tickedUi', [
             'data' => $dataTicked
         ]);
-    }
-
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  \App\Models\ModelContactform  $modelContactform
-     * @return \Illuminate\Http\Response
-     */
-    public function edit(ModelContactform $modelContactform)
-    {
-        //
     }
 
     /**

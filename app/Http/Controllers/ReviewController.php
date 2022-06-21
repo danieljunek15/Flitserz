@@ -10,26 +10,6 @@ use Illuminate\Support\Facades\Session;
 class ReviewController extends Controller
 {
     /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function index()
-    {
-        
-    }
-
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function create()
-    {
-        
-    }
-
-    /**
      * Store a newly created resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
@@ -49,19 +29,6 @@ class ReviewController extends Controller
         return redirect('/')->withSuccess('You have succesfully created a review and we will review it as soon as possible.');
     }
 
-    /**
-     * Display the specified resource.
-     *
-     * @param  \App\Models\ModelReview  $modelReview
-     * @return \Illuminate\Http\Response
-     */
-
-    // is voor de UI
-    public function show(ModelReview $modelReview)
-    {
-
-    }
-
     //is voor de user webpage
     public function showReviewPage(ModelReview $modelReview)
     {
@@ -74,27 +41,5 @@ class ReviewController extends Controller
             'reviewData' => $reviewData,
             'success' => $session
         ]);
-    }
-
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  \App\Models\ModelReview  $modelReview
-     * @return \Illuminate\Http\Response
-     */
-    public function edit(ModelReview $modelReview)
-    {
-        //
-    }
-
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  \App\Models\ModelReview  $modelReview
-     * @return \Illuminate\Http\Response
-     */
-    public function destroy(ModelReview $modelReview)
-    {
-
     }
 }
