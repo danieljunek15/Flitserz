@@ -37,10 +37,5 @@ Route::get('/contact', [\App\Http\Controllers\ContactformController::class, 'ove
 Route::post('/contact/create', [\App\Http\Controllers\ContactformController::class, 'store']);
 Route::post('/revieuw/create', [\App\Http\Controllers\ReviewController::class, 'store']);
 
-// Route::post('/login', [Auth\AuthController::class, 'login']);
-// Route::get('/login',  'Auth\AuthController@showLoginForm');
-// Route::get('/logout', 'Auth\AuthController@logout');
-
-
 Auth::routes(['register' => false]);
 Route::get('/logout', '\App\Http\Controllers\Auth\LoginController@logout');
