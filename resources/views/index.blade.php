@@ -35,32 +35,34 @@
             <div class="bg-purple-600 m-6 drop-shadow-2xl rounded-2xl">
                 <b><p class="text-2xl font-mono text-white m-6">Welkom bij Flitserz</p></b>
                 <div class="m-6 text-white text-l">
-                    <b>U wil is wet !!</b><br>
-                    Wij staan open voor alle IT problemen.<br>
-                    U bent de baas, en wij zijn slechts een tool voor uw multietool.<br><br>
+                    <b class="whitespace-pre"><h3 class="text-xl">U wil is wet !!</h3></b>
+                    <b class="whitespace-pre">    Wij staan open voor alle IT problemen.</b><br>
+                    <b class="whitespace-pre">    U bent de baas, en wij zijn slechts een tool voor uw multietool.</b><br><br>
 
-                    <b>Flitserz, omdat het snel beter kan.</b><br>
-                    Wij zijn uit op een snelle en professionele service voor iedereen.<br>
+                    <b class="whitespace-pre"><h3 class="text-xl">Flitserz, omdat het snel beter kan.</h3></b>
+                    <b class="whitespace-pre">    Wij zijn uit op een snelle en professionele service voor iedereen.</b>
                 </div>
             </div>
             <div class="bg-white m-6 shadow-xl rounded-2xl">
                 <b><p class="text-2xl font-mono m-6">Waarom ons ?</p></b>
                 <div class="m-6">
-                    <b>Goede ICTer's en voordelig ?!</b><br>
-                    Het assisteren bij het bouw procces.<br>
-                    Het kompleet over nemen van het procces en alles netjes geinstaleerd maken.<br>
+                    <b class="whitespace-pre"><h3 class="text-xl">Goede ICTer's en voordelig ?!</h3></b>
+                    <b class="whitespace-pre">    Wij van Flitserz bieden een premium service aan.</b><br>
+                    <b class="whitespace-pre">    Momenteel zijn we de voordeligste keuzen vergeleken met onze concurrenten.</b><br>
+                    <b class="whitespace-pre">    Echt waar zoek maar op ;D !!!</b><br>
+                    <b class="whitespace-pre">    Wij maken zelfs gebruik van Arctic thermalpaste en premium thermalpads.</b>
                 </div>
             </div>
             <div class="bg-white m-6 shadow-xl rounded-2xl">
                 <b><p class="text-2xl font-mono m-6">Gratis diagnose!</p></b>
                 <div class="m-6">
-                    <b>Wat is een gratis diagnose ?!</b><br>
-                    Onderzoek doen naar het gewilde apparaat, en mogelijke problemen vast stellen.<br>
-                    Aangeven hoe wij dit kunnen oplossen voor u, en waarom.<br>
-                    Luisteren naar uw verhaal, om gericht onderzoek te doen.<br>
-                    Vragen beantwoorden die er bij komen kijken.<br>
-                    <br>
-                    <b>Maak een afspraak en wij nemen zo snel mogelijk contact met u op :D</b><br>
+                    <b class="whitespace-pre"><h3 class="text-xl">Wat is een gratis diagnose ?!</h3></b>
+                    <b class="whitespace-pre">    Onderzoek doen naar het gewilde apparaat, en mogelijke problemen vast stellen.</b><br>
+                    <b class="whitespace-pre">    Aangeven hoe wij dit kunnen oplossen voor u, en waarom.</b><br>
+                    <b class="whitespace-pre">    Luisteren naar uw verhaal, om gericht onderzoek te doen.</b><br>
+                    <b class="whitespace-pre">    Vragen beantwoorden die er bij komen kijken.</b><br><br>
+
+                    <b class="whitespace-pre"><h3 class="text-xl">Maak een afspraak en wij nemen zo snel mogelijk contact met u op :D</h3></b>
                     <button class="px-6 py-1 bg-violet-300 hover:bg-violet-400 text-black rounded-lg border-2 border-violet-400 hover:border-violet-500 shadow-xl">
                         <a class="pl-6 md:pl-0 md:pt-6 text-black text-lg hover:text-xl" href="/contact">Contact opnemen</a>
                     </button>   

@@ -30,34 +30,23 @@
             <div class="bg-purple-600 m-6 shadow-2xl rounded-2xl">
                 <b><p class="text-2xl font-mono text-white m-6">Tarieven</p></b>
                 <div class="m-6 text-white">
-                    <table>
-                        <tr class="border-2 border-green-700">
-                            <th class="border-2 border-green-700">APK Basic</th>
-                            <td class="border-2 border-green-700">--:--</td>
-                        </tr>
-                        <tr class="border-2 border-green-700">
-                            <th class="border-2 border-green-700">APK Pro</th>
-                            <td class="border-2 border-green-700">--:--</td>
-                        </tr>
-                        <tr>
-                            <th class="border-2 border-green-700">APK Deluxe</th>
-                            <td class="border-2 border-green-700">--:--</td>
-                        </tr>
-                    </table>
+                    <b class="whitespace-pre"><h3 class="text-xl">Uur tarief</h3></b>
+                    <b class="whitespace-pre">    36,-</b><br><br><br><br>
+                    <b class="whitespace-pre"><h3 class="text-xl">APK Deluxe</h3></b>
+                    <b class="whitespace-pre">    129,-</b>
                 </div>
             </div>
+
             <div class="bg-white m-6 shadow-2xl rounded-2xl">
-                <b><p class="text-2xl font-mono m-6">Uur tarieven.</p></b>
-                <div class="m-6">
-                    Bij Flitserz werken we op uurtarieven.<br>
-                    Vanaf het eerste half uur tellen we per half uur het halve uurtarief.<br><br>
-                    <table>
-                        <tr>
-                            <th>Uur tarief</th>
-                            <td>--:--</td>
-                        </tr>
-                    </table>
-                    
+                <b><p class="text-2xl font-mono text-black m-6">Uitleg</p></b>
+                <div class="m-6 text-black">
+                    <b class="whitespace-pre"><h3 class="text-xl">Hoe werkt het uur tarief ?</h3></b>
+                    <b class="whitespace-pre">    Minimale afname is een half uur, vanaf daar rekenen wij 9,- per kwartier.</b><br>
+                    <b class="whitespace-pre">    Wij zetten een stopwatch aan om de tijd nauwkeurig bij te houden.</b><br>
+                    <b class="whitespace-pre">    Na dat we de taak success vol hebben afgerond vullen we samen het factuur in.</b><br><br>
+                    <b class="whitespace-pre"><h3 class="text-xl">Hoe werkt het APK Deluxe tarief ?</h3></b>
+                    <b class="whitespace-pre">    Eerst word er een diagnose gesteld en als deze naar zinnen is gaan we aan de slag.</b><br>
+                    <b class="whitespace-pre">    U betaald dan ook eenmalig het bedrag dat is aangegeven.</b>
                 </div>
             </div>
         </div>
