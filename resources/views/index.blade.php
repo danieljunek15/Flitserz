@@ -33,7 +33,7 @@
 
         <div class="flex flex-row flex-wrap justify-evenly m-6 bg-white rounded-xl drop-shadow-2xl md:w-5/6">
             <div class="bg-purple-600 m-6 drop-shadow-2xl rounded-2xl">
-                <b><p class="text-2xl font-mono text-white m-6">gegroet bij Flitserz</p></b>
+                <b><p class="text-2xl font-mono text-white m-6">Welkom bij Flitserz</p></b>
                 <div class="m-6 text-white text-l">
                     <b class="whitespace-pre"><h3 class="text-xl">U wil is wet !!</h3></b>
                     <b class="whitespace-pre">    Wij staan open voor alle IT problemen.</b><br>
