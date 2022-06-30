@@ -46,23 +46,23 @@
             <div class="bg-white m-6 shadow-xl rounded-2xl">
                 <b><p class="text-2xl font-mono m-6">Waarom ons ?</p></b>
                 <div class="m-6">
-                    <b class="whitespace-pre"><h3 class="text-xl">Goede ICTer's en voordelig ?!</h3></b>
-                    <b class="whitespace-pre">    Wij van Flitserz bieden een premium service aan.</b><br>
-                    <b class="whitespace-pre">    Momenteel zijn we de voordeligste keuzen vergeleken met onze concurrenten.</b><br>
-                    <b class="whitespace-pre">    Echt waar zoek maar op ;D !!!</b><br>
-                    <b class="whitespace-pre">    Wij maken zelfs gebruik van Arctic thermalpaste en premium thermalpads.</b>
+                    <b><h3 class="text-xl">Goede ICTer's en voordelig ?!</h3></b>
+                    <b>    Wij van Flitserz bieden een premium service aan.</b><br>
+                    <b>    Momenteel zijn we de voordeligste keuzen vergeleken met onze concurrenten.</b><br>
+                    <b>    Echt waar zoek maar op ;D !!!</b><br>
+                    <b>    Wij maken zelfs gebruik van Arctic thermalpaste en premium thermalpads.</b>
                 </div>
             </div>
             <div class="bg-white m-6 shadow-xl rounded-2xl">
                 <b><p class="text-2xl font-mono m-6">Gratis diagnose!</p></b>
                 <div class="m-6">
-                    <b class="whitespace-pre"><h3 class="text-xl">Wat is een gratis diagnose ?!</h3></b>
-                    <b class="whitespace-pre">    Onderzoek doen naar het gewilde apparaat, en mogelijke problemen vast stellen.</b><br>
-                    <b class="whitespace-pre">    Aangeven hoe wij dit kunnen oplossen voor u, en waarom.</b><br>
-                    <b class="whitespace-pre">    Luisteren naar uw verhaal, om gericht onderzoek te doen.</b><br>
-                    <b class="whitespace-pre">    Vragen beantwoorden die er bij komen kijken.</b><br><br>
+                    <b><h3 class="text-xl">Wat is een gratis diagnose ?!</h3></b>
+                    <b>    Onderzoek doen naar het gewilde apparaat, en mogelijke problemen vast stellen.</b><br>
+                    <b>    Aangeven hoe wij dit kunnen oplossen voor u, en waarom.</b><br>
+                    <b>    Luisteren naar uw verhaal, om gericht onderzoek te doen.</b><br>
+                    <b>    Vragen beantwoorden die er bij komen kijken.</b><br><br>
 
-                    <b class="whitespace-pre"><h3 class="text-xl">Maak een afspraak en wij nemen zo snel mogelijk contact met u op :D</h3></b>
+                    <b><h3 class="text-xl">Maak een afspraak en wij nemen zo snel mogelijk contact met u op :D</h3></b>
                     <button class="px-6 py-1 bg-violet-300 hover:bg-violet-400 text-black rounded-lg border-2 border-violet-400 hover:border-violet-500 shadow-xl">
                         <a class="pl-6 md:pl-0 md:pt-6 text-black text-lg hover:text-xl" href="/contact">Contact opnemen</a>
                     </button>   
