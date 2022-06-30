@@ -22,7 +22,7 @@
                 <p class="text-4xl font-bold text-red-700">Flitserz</p>
             </div>
 
-            <div class="flex flex-wrap flex-row md:flex-col m-6 justify-evenly min-w-[60%]">
+            <div class="flex sm:flex-wrap flex-row md:flex-col m-6 justify-evenly min-w-[60%]">
                 <a class="pl-6 pb-5 md:pb-0 md:pl-0 md:pt-6 text-white text-lg md:hover:text-xl" href="/">Home</a>
                 <a class="pl-6 pb-5 md:pb-0 md:pl-0 md:pt-6 text-white text-lg md:hover:text-xl" href="/diensten">Diensten</a>
                 <a class="pl-6 pb-5 md:pb-0 md:pl-0 md:pt-6 text-white text-lg md:hover:text-xl" href="/tarieven">Tarieven</a>
