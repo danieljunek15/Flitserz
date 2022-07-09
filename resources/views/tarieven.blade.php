@@ -43,7 +43,7 @@
                     <b><h3 class="text-xl">Hoe werkt het uur tarief ?</h3></b>
                     <b>    Minimale afname is een half uur, vanaf daar rekenen wij 9,- per kwartier.</b><br>
                     <b>    Wij zetten een stopwatch aan om de tijd nauwkeurig bij te houden.</b><br>
-                    <b>    Na dat we de taak success vol hebben afgerond vullen we samen het factuur in.</b><br><br>
+                    <b>    Na dat we de taak succes vol hebben afgerond vullen we samen het factuur in.</b><br><br>
                     <b><h3 class="text-xl">Hoe werkt het APK Deluxe tarief ?</h3></b>
                     <b>    Eerst word er een diagnose gesteld en als deze naar zinnen is gaan we aan de slag.</b><br>
                     <b>    U betaald dan ook eenmalig het bedrag dat is aangegeven.</b>

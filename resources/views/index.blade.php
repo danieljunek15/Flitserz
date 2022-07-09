@@ -36,17 +36,17 @@
                 <b><p class="text-2xl font-mono text-white m-6">Welkom bij Flitserz</p></b>
                 <div class="m-6 text-white text-l">
                     <b><h3 class="text-xl">U wil is wet !!</h3></b>
-                    <b>    Wij staan open voor alle IT problemen.</b><br>
-                    <b>    U bent de baas, en wij zijn slechts een tool voor uw multietool.</b><br><br>
+                    <b>    Wij staan open voor alle IT-problemen.</b><br>
+                    <b>    U bent de baas, en wij zijn slechts een tool voor uw multitool.</b><br><br>
 
                     <b><h3 class="text-xl">Flitserz, omdat het snel beter kan.</h3></b>
                     <b>    Wij zijn uit op een snelle en professionele service voor iedereen.</b>
                 </div>
             </div>
             <div class="bg-white m-6 shadow-xl rounded-2xl">
-                <b><p class="text-2xl font-mono m-6">Waarom ons ?</p></b>
+                <b><p class="text-2xl font-mono m-6">Waarom ons?</p></b>
                 <div class="m-6">
-                    <b><h3 class="text-xl">Goede ICTer's en voordelig ?!</h3></b>
+                    <b><h3 class="text-xl">Goede ICT'ers en voordelig?!</h3></b>
                     <b>    Wij van Flitserz bieden een premium service aan.</b><br>
                     <b>    Momenteel zijn we de voordeligste keuzen vergeleken met onze concurrenten.</b><br>
                     <b>    Echt waar zoek maar op ;D !!!</b><br>
