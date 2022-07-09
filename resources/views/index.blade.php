@@ -62,7 +62,7 @@
                     <b>    Luisteren naar uw verhaal, om gericht onderzoek te doen.</b><br>
                     <b>    Vragen beantwoorden die er bij komen kijken.</b><br><br>
 
-                    <b><h3 class="text-xl">Maak een afspraak en wij nemen zo snel mogelijk contact met u op :D</h3></b>
+                    <b><h3 class="text-xl">Maak een afspraak en wij nemen zo snel mogelijk contact met u op.</h3></b>
                     <button class="px-6 py-1 bg-violet-300 hover:bg-violet-400 text-black rounded-lg border-2 border-violet-400 hover:border-violet-500 shadow-xl">
                         <a class="pl-6 md:pl-0 md:pt-6 text-black text-lg hover:text-xl" href="/contact">Contact opnemen</a>
                     </button>   
