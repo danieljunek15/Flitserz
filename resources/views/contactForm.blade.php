@@ -10,13 +10,13 @@
 
 </head>
 <body class="">
-    <div class="flex flex-row flex-wrap justify-between min-h-full m-6 bg-dark-purpleblue rounded-2xl drop-shadow-2xl border-2 border-black">
-        <div class="flex flex-col justify-end h-full bg-dark-purpleblue rounded-2xl md:m-6">
+    <div class="flex flex-row flex-wrap justify-between min-h-full m-2 sm:m-6 bg-dark-purpleblue rounded-2xl drop-shadow-2xl border-2 border-black">
+        <div class="flex flex-col justify-end h-full bg-dark-purpleblue rounded-2xl m-2 sm:m-6">
             <div>
                 <p class="text-4xl font-bold text-red-700">Flitserz</p>
             </div>
 
-            <div class="flex flex-wrap flex-row md:flex-col m-6 justify-evenly md:min-w-[60%]">
+            <div class="flex flex-wrap flex-row md:flex-col m-2 sm:m-6 justify-evenly md:min-w-[60%]">
                 <a class="pl-6 pb-5 md:pb-0 md:pl-0 md:pt-6 text-white text-lg md:hover:text-xl" href="/">Home</a>
                 <a class="pl-6 pb-5 md:pb-0 md:pl-0 md:pt-6 text-white text-lg md:hover:text-xl" href="/diensten">Diensten</a>
                 <a class="pl-6 pb-5 md:pb-0 md:pl-0 md:pt-6 text-white text-lg md:hover:text-xl" href="/tarieven">Tarieven</a>
@@ -26,10 +26,10 @@
             </div>
         </div>
 
-        <div class="flex flex-row flex-wrap justify-evenly m-6 bg-white rounded-xl drop-shadow-2xl md:w-4/6">
-            <div class="bg-purple-600 m-6 drop-shadow-2xl rounded-2xl">
-                <b><p class="text-2xl font-mono text-white m-6">Contact op nemen</p></b>
-                <div class="m-6 text-l text-white">
+        <div class="flex flex-row flex-wrap justify-evenly m-1 sm:m-6 bg-white rounded-xl drop-shadow-2xl md:w-4/6">
+            <div class="bg-purple-600 m-1 sm:m-6 drop-shadow-2xl rounded-2xl">
+                <b><p class="text-2xl font-mono text-white m-1 sm:m-6">Contact op nemen</p></b>
+                <div class="m-3 sm:m-6 text-l text-white">
                     <b>Vragen ?</b><br>
                     Heeft u vragen of wilt u contact opnemen met Flitserz ?<br>
                     Vul het contact formulier in en wij zullen zo snel mogelijk contact met u opnemen<br><br>
@@ -40,7 +40,7 @@
                 </div>
             </div>
 
-            <div class="bg-white m-6 shadow-xl rounded-2xl">
+            <div class="bg-white m-2 sm:m-6 shadow-xl rounded-2xl">
                 <b>
                     <p class="text-2xl font-mono m-6">Contact formulier</p>
                 </b>
@@ -65,7 +65,9 @@
                         <label for="gemeente">Gemeente :</label>
                         <input type="text" name="gemeente" value="{{ old('gemeente') }}" class="border-2 border-black rounded-xl hover:border-violet-800 shadow-xl"><br><br>
                         <textarea name="vragen" value="{{ old('vragen') }}" rows="8" class="w-full border-2 border-black rounded-xl hover:border-violet-800 shadow-xl p-2" placeholder="Kunt u uitgebreid uitleggen waarmee Flitserz u vandienst kan zijn?">{{ old('vragen') }}</textarea><br><br>
-                        <input type="submit" name="submit" class="px-6 py-1 bg-violet-300 hover:bg-violet-400 text-black rounded-lg border-2 border-violet-400 hover:border-violet-500 shadow-xl">
+                        <div class="flex justify-center">
+                            <input type="submit" name="submit" class="px-6 py-1 bg-violet-300 hover:bg-violet-400 text-black rounded-lg border-2 border-violet-400 hover:border-violet-500 shadow-xl">
+                        </div>
                     </div>
                 </form>
             </div>

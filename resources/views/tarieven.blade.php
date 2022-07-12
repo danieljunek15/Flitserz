@@ -10,13 +10,13 @@
 
 </head>
 <body class="">
-    <div class="flex flex-row flex-wrap justify-between min-h-full m-6 bg-dark-purpleblue rounded-2xl drop-shadow-2xl border-2 border-black">
-        <div class="flex flex-col justify-end h-full bg-dark-purpleblue rounded-2xl md:m-6">
+    <div class="flex flex-row flex-wrap justify-between min-h-full m-2 sm:m-6 bg-dark-purpleblue rounded-2xl drop-shadow-2xl border-2 border-black">
+        <div class="flex flex-col justify-end h-full bg-dark-purpleblue rounded-2xl m-2 sm:m-6">
             <div>
                 <p class="text-4xl font-bold text-red-700">Flitserz</p>
             </div>
 
-            <div class="flex flex-wrap flex-row md:flex-col m-6 justify-evenly min-w-[60%]">
+            <div class="flex flex-wrap flex-row md:flex-col m-2 sm:m-6 justify-evenly min-w-[60%]">
                 <a class="pl-6 pb-5 md:pb-0 md:pl-0 md:pt-6 text-white text-lg md:hover:text-xl" href="/">Home</a>
                 <a class="pl-6 pb-5 md:pb-0 md:pl-0 md:pt-6 text-white text-lg md:hover:text-xl" href="/diensten">Diensten</a>
                 <a class="pl-6 pb-5 md:pb-0 md:pl-0 md:pt-6 text-white text-lg md:hover:text-xl" href="/tarieven">Tarieven</a>
@@ -26,10 +26,10 @@
             </div>
         </div>
 
-        <div class="flex flex-row flex-wrap justify-evenly m-6 bg-white rounded-xl drop-shadow-2xl md:w-4/6">
-            <div class="bg-purple-600 m-6 shadow-2xl rounded-2xl">
-                <b><p class="text-2xl font-mono text-white m-6">Tarieven</p></b>
-                <div class="m-6 text-white">
+        <div class="flex flex-row flex-wrap justify-evenly m-1 sm:m-6 bg-white rounded-xl drop-shadow-2xl md:w-4/6">
+            <div class="bg-purple-600 m-1 sm:m-6 shadow-2xl rounded-2xl">
+                <b><p class="text-2xl font-mono text-white m-1 sm:m-6">Tarieven</p></b>
+                <div class="m-3 sm:m-6 text-white">
                     <b><h3 class="text-xl">Uur tarief</h3></b>
                     <b>    36,-</b><br><br><br><br>
                     <b><h3 class="text-xl">APK Deluxe</h3></b>
@@ -37,9 +37,9 @@
                 </div>
             </div>
 
-            <div class="bg-white m-6 shadow-2xl rounded-2xl">
-                <b><p class="text-2xl font-mono text-black m-6">Uitleg</p></b>
-                <div class="m-6 text-black">
+            <div class="bg-white m-1 sm:m-6 shadow-2xl rounded-2xl">
+                <b><p class="text-2xl font-mono text-black m-1 sm:m-6">Uitleg</p></b>
+                <div class="m-3 sm:m-6 text-black">
                     <b><h3 class="text-xl">Hoe werkt het uur tarief ?</h3></b>
                     <b>    Minimale afname is een half uur, vanaf daar rekenen wij 9,- per kwartier.</b><br>
                     <b>    Wij zetten een stopwatch aan om de tijd nauwkeurig bij te houden.</b><br>
