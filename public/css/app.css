@@ -466,17 +466,17 @@ Ensure the default browser behavior of the `hidden` attribute.
 .right-0 {
   right: 0px;
 }
-.m-6 {
-  margin: 1.5rem;
-}
 .m-2 {
   margin: 0.5rem;
+}
+.m-1 {
+  margin: 0.25rem;
 }
 .m-3 {
   margin: 0.75rem;
 }
-.m-1 {
-  margin: 0.25rem;
+.m-6 {
+  margin: 1.5rem;
 }
 .my-6 {
   margin-top: 1.5rem;
@@ -621,9 +621,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-space-y-reverse: 0;
   margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(1rem * var(--tw-space-y-reverse));
-}
-.justify-self-center {
-  justify-self: center;
 }
 .break-words {
   overflow-wrap: break-word;
@@ -986,16 +983,12 @@ Ensure the default browser behavior of the `hidden` attribute.
     order: 1;
   }
 
-  .sm\:m-0 {
-    margin: 0px;
-  }
-
-  .sm\:m-2 {
-    margin: 0.5rem;
-  }
-
   .sm\:m-6 {
     margin: 1.5rem;
+  }
+
+  .sm\:m-0 {
+    margin: 0px;
   }
 
   .sm\:mx-auto {
@@ -1046,10 +1039,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .sm\:flex-wrap {
     flex-wrap: wrap;
-  }
-
-  .sm\:justify-start {
-    justify-content: flex-start;
   }
 
   .sm\:justify-center {
@@ -1175,16 +1164,8 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 @media (min-width: 768px) {
 
-  .md\:m-6 {
-    margin: 1.5rem;
-  }
-
   .md\:w-4\/6 {
     width: 66.666667%;
-  }
-
-  .md\:w-5\/6 {
-    width: 83.333333%;
   }
 
   .md\:w-auto {
@@ -1197,6 +1178,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .md\:w-2\/4 {
     width: 50%;
+  }
+
+  .md\:w-5\/6 {
+    width: 83.333333%;
   }
 
   .md\:min-w-\[60\%\] {

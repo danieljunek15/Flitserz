@@ -32,7 +32,7 @@
             </div>
         </div>
 
-        <div class="flex flex-row flex-wrap justify-evenly m-1 sm:m-6 bg-white rounded-xl drop-shadow-2xl md:w-5/6">
+        <div class="flex flex-row flex-wrap justify-evenly m-1 sm:m-6 bg-white rounded-xl drop-shadow-2xl md:w-4/6">
             <div class="bg-purple-600 m-1 sm:m-6 drop-shadow-2xl rounded-2xl">
                 <b><p class="text-2xl font-mono text-white m-1 sm:m-6">Welkom bij Flitserz</p></b>
                 <div class="m-3 sm:m-6 text-white text-l">
