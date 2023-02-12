@@ -30,12 +30,9 @@
                 <a class="pl-6 pb-5 md:pb-0 md:pl-0 md:pt-6 text-lime-100 text-lg md:hover:text-xl" href="/contact">Contact opnemen</a>
                 <a class="pl-6 pb-5 md:pb-0 md:pl-0 md:pt-6 text-lime-100 text-lg md:hover:text-xl" href="/showRevieuw">Reviews</a>
             </div>
-            {{-- <div>
-                <img class="drop-shadow-2xl rounded-3xl border-4 border-lime-900 hover:border-red-600" src="{{ asset('img/Achtergrond_Foto.jpg') }}">
-            </div> --}}
         </div>
 
-        <div class="flex flex-row flex-wrap justify-evenly m-1 sm:m-6 bg-amber-50 rounded-xl drop-shadow-2xl md:w-4/6 bg-cover bg-no-repeat" style="background-image: url('{{ asset('img/Achtergrond_Foto.jpg') }}')">
+        <div class="flex flex-row flex-wrap justify-evenly m-1 sm:m-6 bg-amber-50 rounded-xl drop-shadow-2xl md:w-4/6 bg-cover bg-no-repeat" style="background-image: url('{{ asset('img/Achtergrond_Foto.JPG') }}')">
             <div class="bg-lime-700 m-1 sm:m-6 sm:w-fit drop-shadow-2xl rounded-2xl">
                 <div class="flex flex-row justify-start">
                     <b><p class="text-2xl font-mono text-lime-100 pt-6 pl-6">Welkom bij</p></b>
