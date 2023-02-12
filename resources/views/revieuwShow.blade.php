@@ -27,24 +27,25 @@
         </div>
 
         <div class="flex flex-col w-auto object-scale-down md:flex-row md:w-3/4 md:object-contain">
-            <div class="flex flex-col flex-wrap justify-evenly m-1 sm:m-6 bg-lime-100 rounded-xl drop-shadow-2xl w-auto md:w-2/4 object-scale-down md:object-contain">
-                @foreach ($reviewData as $row)
-                <div class="bg-lime-700 m-1 sm:m-6 drop-shadow-2xl rounded-2xl object-scale-down md:object-contain">
+            <div class="flex justify-center overflow-y-scroll h-[32rem] rounded-xl">
+                <div class="flex flex-col justify-evenly bg-lime-100 rounded-xl h-fit drop-shadow-2xl w-auto md:w-full object-scale-down md:object-contain">
+                    @foreach ($reviewData as $row)
+                    <div class="bg-lime-700 m-1 sm:m-6 drop-shadow-2xl rounded-2xl object-scale-down md:object-contain">
 
-                    <div class="flex flex-row">
-                        <b><p class="text-xl font-mono text-lime-100 m-3 sm:m-6">{{ $row->name }}</p></b><b><h5 class="text-l font-mono text-lime-100 m-3 sm:m-6">{{ $row->rating }}/10</h5></b>
-                    </div>
+                        <div class="flex flex-row">
+                            <b><p class="text-xl font-mono text-lime-100 m-3 sm:m-6">{{ $row->name }}</p></b><b><h5 class="text-l font-mono text-lime-100 m-3 sm:m-6">{{ $row->rating }}/10</h5></b>
+                        </div>
 
-                    <div class="m-3 sm:m-6 text-lime-100 text-l">
-                        {{ $row->content }}
+                        <div class="m-3 sm:m-6 text-lime-100 text-l">
+                            {{ $row->content }}
+                        </div>
+                        <div class="ml-6 mb-5 text-lime-900">
+                            {{ $row->created_at }}
+                        </div>
                     </div>
-                    <div class="ml-6 mb-5 text-lime-900">
-                        {{ $row->created_at }}
-                    </div>
+                    @endforeach
                 </div>
-                @endforeach
-            </div>
-
+            </div>  
             <div class="flex flex-col justify-start sm:justify-center pb-6 pr-6 w-auto md:w-auto">
                 <div class="m-1 sm:m-6 bg-white rounded-xl drop-shadow-2xl w-auto bg-cover bg-no-repeat" style="background-image: url('{{ asset('img/bg_review.jpg') }}')">
                     <form action="/revieuw/create" method="POST">

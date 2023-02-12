@@ -9,6 +9,9 @@ module.exports = {
       colors: {
         'dark-purpleblue': '#230e63',
       },
+      height: {
+        '500': '32rem',
+      }
     },
   },
   plugins: [],
