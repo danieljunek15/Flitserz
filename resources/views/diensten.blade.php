@@ -9,27 +9,27 @@
 <link href="{{ asset('/css/app.css') }}" rel="stylesheet">
 
 </head>
-<body class="">
-    <div class="flex flex-row flex-wrap justify-between min-h-full m-2 sm:m-6 bg-dark-purpleblue rounded-2xl drop-shadow-2xl border-2 border-black">
-        <div class="flex flex-col justify-end h-full bg-dark-purpleblue rounded-2xl m-2 sm:m-6">
+<body class="bg-amber-50">
+    <div class="flex flex-row flex-wrap justify-between min-h-full m-2 sm:m-6 bg-lime-900 rounded-2xl drop-shadow-2xl border-2 border-black">
+        <div class="flex flex-col justify-end h-full bg-lime-900 rounded-2xl m-2 sm:m-6">
             <div>
-                <p class="text-4xl font-bold text-red-700">Flitserz</p>
+                <p class="text-4xl font-bold text-red-800">Flitserz</p>
             </div>
 
             <div class="flex flex-wrap flex-row md:flex-col m-2 sm:m-6 justify-evenly min-w-[60%]">
-                <a class="pl-6 pb-5 md:pb-0 md:pl-0 md:pt-6 text-white text-lg md:hover:text-xl" href="/">Home</a>
-                <a class="pl-6 pb-5 md:pb-0 md:pl-0 md:pt-6 text-white text-lg md:hover:text-xl" href="/diensten">Diensten</a>
-                <a class="pl-6 pb-5 md:pb-0 md:pl-0 md:pt-6 text-white text-lg md:hover:text-xl" href="/tarieven">Tarieven</a>
-                <a class="pl-6 pb-5 md:pb-0 md:pl-0 md:pt-6 text-white text-lg md:hover:text-xl" href="/over">Over ons</a>
-                <a class="pl-6 pb-5 md:pb-0 md:pl-0 md:pt-6 text-white text-lg md:hover:text-xl" href="/contact">Contact opnemen</a>
-                <a class="pl-6 pb-5 md:pb-0 md:pl-0 md:pt-6 text-white text-lg md:hover:text-xl" href="/showRevieuw">Reviews</a>
+                <a class="pl-6 pb-5 md:pb-0 md:pl-0 md:pt-6 text-lime-100 text-lg md:hover:text-xl" href="/">Home</a>
+                <a class="pl-6 pb-5 md:pb-0 md:pl-0 md:pt-6 text-lime-100 text-lg md:hover:text-xl" href="/diensten">Diensten</a>
+                <a class="pl-6 pb-5 md:pb-0 md:pl-0 md:pt-6 text-lime-100 text-lg md:hover:text-xl" href="/tarieven">Tarieven</a>
+                <a class="pl-6 pb-5 md:pb-0 md:pl-0 md:pt-6 text-lime-100 text-lg md:hover:text-xl" href="/over">Over ons</a>
+                <a class="pl-6 pb-5 md:pb-0 md:pl-0 md:pt-6 text-lime-100 text-lg md:hover:text-xl" href="/contact">Contact opnemen</a>
+                <a class="pl-6 pb-5 md:pb-0 md:pl-0 md:pt-6 text-lime-100 text-lg md:hover:text-xl" href="/showRevieuw">Reviews</a>
             </div>
         </div>
 
-        <div class="flex flex-row flex-wrap justify-evenly m-1 sm:m-6 bg-white rounded-xl drop-shadow-2xl min-w-min md:w-4/6">
-            <div class="bg-purple-600 m-1 sm:m-6 drop-shadow-2xl rounded-2xl">
-                <b><p class="text-2xl font-mono text-white m-1 sm:m-6">APK</p></b>
-                <div class="m-3 sm:m-6 text-l text-white">
+        <div class="flex flex-row flex-wrap justify-evenly m-1 sm:m-6 bg-white rounded-xl drop-shadow-2xl min-w-min md:w-4/6 bg-cover bg-no-repeat" style="background-image: url('{{ asset('img/bg_diensten.jpg') }}')">
+            <div class="bg-lime-700 m-1 sm:m-6 drop-shadow-2xl rounded-2xl">
+                <b><p class="text-2xl font-mono text-lime-100 m-1 sm:m-6">APK</p></b>
+                <div class="m-3 sm:m-6 text-l text-lime-100">
                     <b><h3 class="text-xl">APK Basic</h3></b>
                     <b>    Wat hoort er bij een basic APK ?</b><br>
                     <b>    Wij zorgen er voor dat de software van u laptop/desktop helemaal up-to-date is.</b><br>
@@ -46,7 +46,7 @@
                     <b>Wij gebruiken <a class="text-xl" href="/tarieven">dit</a> als bron voor de kosten.</b>                   
                 </div>
             </div>
-            <div class="bg-white m-1 sm:m-6 shadow-xl rounded-2xl">
+            <div class="bg-amber-100 m-1 sm:m-6 shadow-xl rounded-2xl">
                 <b><p class="text-2xl font-mono m-1 sm:m-6">Hulp bij het bouwen van u desktop</p></b>
                 <div class="m-3 sm:m-6 text-l">
                     <b>-   Wij kunnen assisteren bij het bouw proces.</b><br>
@@ -57,7 +57,7 @@
                 </div>  
             </div>
             
-            <div class="bg-white m-1 sm:m-6 shadow-xl rounded-2xl">
+            <div class="bg-amber-100 m-1 sm:m-6 shadow-xl rounded-2xl">
                 <b><p class="text-2xl font-mono m-1 sm:m-6">Advies geven en diagnose stellen</p></b>
                 <div class="m-3 sm:m-6 text-l">
                     <b>Wat kan Fitserz voor u hier in betekenen ?</b><br>
@@ -69,7 +69,7 @@
                 </div>
             </div>
 
-            <div class="bg-white m-1 sm:m-6 shadow-xl rounded-2xl">
+            <div class="bg-amber-100 m-1 sm:m-6 shadow-xl rounded-2xl">
                 <b><p class="text-2xl font-mono m-1 sm:m-6">Hulp bij het uitzoeken, installeren en instellen van elektronica.</p></b>
                 <div class="m-3 sm:m-6 text-l">
                     <b><h2 class="text-xl">Wat kan Fitserz voor u hier in betekenen ?</h2></b>

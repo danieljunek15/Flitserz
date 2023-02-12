@@ -9,27 +9,27 @@
 <link href="{{ asset('/css/app.css') }}" rel="stylesheet">
 
 </head>
-<body class="">
-    <div class="flex flex-row flex-wrap justify-between min-h-full m-2 sm:m-6 bg-dark-purpleblue rounded-2xl drop-shadow-2xl border-2 border-black">
-        <div class="flex flex-col justify-end h-full bg-dark-purpleblue rounded-2xl m-2 sm:m-6">
+<body class="bg-amber-50">
+    <div class="flex flex-row flex-wrap justify-between min-h-full m-2 sm:m-6 bg-lime-900 rounded-2xl drop-shadow-2xl border-2 border-black">
+        <div class="flex flex-col justify-end h-full bg-lime-900 rounded-2xl m-2 sm:m-6">
             <div>
                 <p class="text-4xl font-bold text-red-700">Flitserz</p>
             </div>
 
             <div class="flex flex-wrap flex-row md:flex-col m-2 sm:m-6 justify-evenly min-w-[60%]">
-                <a class="pl-6 pb-5 md:pb-0 md:pl-0 md:pt-6 text-white text-lg md:hover:text-xl" href="/">Home</a>
-                <a class="pl-6 pb-5 md:pb-0 md:pl-0 md:pt-6 text-white text-lg md:hover:text-xl" href="/diensten">Diensten</a>
-                <a class="pl-6 pb-5 md:pb-0 md:pl-0 md:pt-6 text-white text-lg md:hover:text-xl" href="/tarieven">Tarieven</a>
-                <a class="pl-6 pb-5 md:pb-0 md:pl-0 md:pt-6 text-white text-lg md:hover:text-xl" href="/over">Over ons</a>
-                <a class="pl-6 pb-5 md:pb-0 md:pl-0 md:pt-6 text-white text-lg md:hover:text-xl" href="/contact">Contact opnemen</a>
-                <a class="pl-6 pb-5 md:pb-0 md:pl-0 md:pt-6 text-white text-lg md:hover:text-xl" href="/showRevieuw">Reviews</a>
+                <a class="pl-6 pb-5 md:pb-0 md:pl-0 md:pt-6 text-lime-100 text-lg md:hover:text-xl" href="/">Home</a>
+                <a class="pl-6 pb-5 md:pb-0 md:pl-0 md:pt-6 text-lime-100 text-lg md:hover:text-xl" href="/diensten">Diensten</a>
+                <a class="pl-6 pb-5 md:pb-0 md:pl-0 md:pt-6 text-lime-100 text-lg md:hover:text-xl" href="/tarieven">Tarieven</a>
+                <a class="pl-6 pb-5 md:pb-0 md:pl-0 md:pt-6 text-lime-100 text-lg md:hover:text-xl" href="/over">Over ons</a>
+                <a class="pl-6 pb-5 md:pb-0 md:pl-0 md:pt-6 text-lime-100 text-lg md:hover:text-xl" href="/contact">Contact opnemen</a>
+                <a class="pl-6 pb-5 md:pb-0 md:pl-0 md:pt-6 text-lime-100 text-lg md:hover:text-xl" href="/showRevieuw">Reviews</a>
             </div>
         </div>
 
-        <div class="flex flex-row flex-wrap justify-evenly m-1 sm:m-6 bg-white rounded-xl drop-shadow-2xl md:w-4/6">
-            <div class="bg-purple-600 m-1 sm:m-6 drop-shadow-2xl rounded-2xl">
-                <b><p class="text-2xl font-mono text-white m-1 sm:m-6">Over ons Flitserz</p></b>
-                <div class="m-3 sm:m-6 text-l text-white">
+        <div class="flex flex-row flex-wrap justify-evenly m-1 sm:m-6 bg-amber-50 rounded-xl drop-shadow-2xl md:w-4/6 bg-cover bg-no-repeat" style="background-image: url('{{ asset('img/bg_over_ons.jpg') }}')">
+            <div class="bg-lime-700 m-1 sm:m-6 drop-shadow-2xl rounded-2xl">
+                <b><p class="text-2xl font-mono text-lime-100 m-1 sm:m-6">Over ons Flitserz</p></b>
+                <div class="m-3 sm:m-6 text-l text-lime-100">
                     <b><h3 class="text-xl">Wie zijn wij</h3></b>
                     <b>    Flitserz is een jong huis aan huis ICT oplossing voor jong en oud.</b><br>
                     <b>    Als u niet uit huis kan, te oud bent om u computer naar een winkel te brengen.</b><br>
@@ -44,7 +44,7 @@
                 </div>
             </div>
 
-            <div class="bg-white m-1 sm:m-6 shadow-xl rounded-2xl">
+            <div class="bg-amber-100 m-1 sm:m-6 shadow-xl rounded-2xl">
                 <b><p class="text-2xl font-mono m-1 sm:m-6">Klant vriendelijk</p></b>
                 <div class="m-3 sm:m-6 text-l">
                     <b>Omdat Flitserz een jong bedrijf is willen wij zo goed mogelijk communicatie hebben tussen u en ons.</b><br>
@@ -54,7 +54,7 @@
                 </div>
             </div>
 
-            <div class="bg-white m-1 sm:m-6 shadow-xl rounded-2xl">
+            <div class="bg-amber-100 m-1 sm:m-6 shadow-xl rounded-2xl">
                 <b><p class="text-2xl font-mono m-1 sm:m-6">Ideologie van Flitserz</p></b>
                 <div class="m-3 sm:m-6 text-l">
                     <b>Wij sluiten niemand uit, en willen alle technische problemen aanpakken voor u.</b><br>
@@ -66,10 +66,10 @@
                 </div>
             </div>
 
-            <div class="bg-white m-1 sm:m-6 shadow-xl rounded-2xl">
+            <div class="bg-amber-100 m-1 sm:m-6 shadow-xl rounded-2xl">
                 <div class="flex flex-row justify-between max-w-[95%]">
                     <b><p class="text-2xl font-mono m-1 sm:m-6">Onze IT'er</p></b>
-                    <a href="https://www.linkedin.com/in/daniël-van-den-brink-4a21651a3/"><img class="drop-shadow-2xl rounded-3xl border-4 border-purple-600" src="https://media-exp1.licdn.com/dms/image/C5603AQFOpIF9YRMSew/profile-displayphoto-shrink_200_200/0/1586166595898?e=1659571200&v=beta&t=0SSk2POuM9FRvQA1BioOJt1V2MmR3YWttewc8DcG5QM" width='200' height='200'></a>
+                    <a href="https://www.linkedin.com/in/daniël-van-den-brink-4a21651a3/" class="pt-8"><img class="drop-shadow-2xl rounded-3xl border-4 border-lime-900 hover:border-red-600" src="{{ asset('img/Profiel_Foto.jpg') }}" width='200' height='200'></a>
                 </div>
                 <div class="m-3 sm:m-6 text-l">
                     <b><h3 class="text-xl">Wie ben ik ?</h3></b>
@@ -89,7 +89,7 @@
                 </div>
             </div>
 
-            <div class="bg-white m-1 sm:m-6 shadow-xl rounded-2xl">
+            <div class="bg-amber-100 m-1 sm:m-6 shadow-xl rounded-2xl">
                 <b><p class="text-2xl font-mono m-1 sm:m-6">Bedrijf info van Flitserz</p></b>
                 <div class="m-3 sm:m-6 text-l">
                     <b>Naam: Flitserz</b><br>

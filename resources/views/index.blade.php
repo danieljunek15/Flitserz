@@ -15,28 +15,34 @@
 <link href="{{ asset('/css/app.css') }}" rel="stylesheet">
 
 </head>
-<body class="">
-    <div class="flex flex-row flex-wrap justify-between min-h-full m-2 sm:m-6 bg-dark-purpleblue rounded-2xl drop-shadow-2xl border-2 border-black">
-        <div class="flex flex-col justify-end h-full bg-dark-purpleblue rounded-2xl m-2 sm:m-6">
+<body class="bg-amber-50">
+    <div class="flex flex-row flex-wrap justify-between h-full m-2 sm:m-6 bg-lime-900 rounded-2xl drop-shadow-2xl border-2 border-black">
+        <div class="flex flex-col justify-end h-full bg-lime-900 rounded-2xl m-2 sm:m-6">
             <div>
-                <p class="text-4xl font-bold text-red-700">Flitserz</p>
+                <p class="text-4xl font-bold text-red-800">Flitserz</p>
             </div>
 
-            <div class="flex flex-wrap sm:flex-row md:flex-col m-2 sm:m-6 justify-evenly min-w-[60%]">
-                <a class="pl-6 pb-5 md:pb-0 md:pl-0 md:pt-6 text-white text-lg md:hover:text-xl" href="/">Home</a>
-                <a class="pl-6 pb-5 md:pb-0 md:pl-0 md:pt-6 text-white text-lg md:hover:text-xl" href="/diensten">Diensten</a>
-                <a class="pl-6 pb-5 md:pb-0 md:pl-0 md:pt-6 text-white text-lg md:hover:text-xl" href="/tarieven">Tarieven</a>
-                <a class="pl-6 pb-5 md:pb-0 md:pl-0 md:pt-6 text-white text-lg md:hover:text-xl" href="/over">Over ons</a>  
-                <a class="pl-6 pb-5 md:pb-0 md:pl-0 md:pt-6 text-white text-lg md:hover:text-xl" href="/contact">Contact opnemen</a>
-                <a class="pl-6 pb-5 md:pb-0 md:pl-0 md:pt-6 text-white text-lg md:hover:text-xl" href="/showRevieuw">Reviews</a>
+            <div class="flex flex-wrap sm:flex-row md:flex-col m-2 sm:m-6 justify-evenly min-w-[70%]">
+                <a class="pl-6 pb-5 md:pb-0 md:pl-0 md:pt-6 text-lime-100 text-lg md:hover:text-xl" href="/">Home</a>
+                <a class="pl-6 pb-5 md:pb-0 md:pl-0 md:pt-6 text-lime-100 text-lg md:hover:text-xl" href="/diensten">Diensten</a>
+                <a class="pl-6 pb-5 md:pb-0 md:pl-0 md:pt-6 text-lime-100 text-lg md:hover:text-xl" href="/tarieven">Tarieven</a>
+                <a class="pl-6 pb-5 md:pb-0 md:pl-0 md:pt-6 text-lime-100 text-lg md:hover:text-xl" href="/over">Over ons</a>  
+                <a class="pl-6 pb-5 md:pb-0 md:pl-0 md:pt-6 text-lime-100 text-lg md:hover:text-xl" href="/contact">Contact opnemen</a>
+                <a class="pl-6 pb-5 md:pb-0 md:pl-0 md:pt-6 text-lime-100 text-lg md:hover:text-xl" href="/showRevieuw">Reviews</a>
             </div>
+            {{-- <div>
+                <img class="drop-shadow-2xl rounded-3xl border-4 border-lime-900 hover:border-red-600" src="{{ asset('img/Achtergrond_Foto.jpg') }}">
+            </div> --}}
         </div>
 
-        <div class="flex flex-row flex-wrap justify-evenly m-1 sm:m-6 bg-white rounded-xl drop-shadow-2xl md:w-4/6">
-            <div class="bg-purple-600 m-1 sm:m-6 drop-shadow-2xl rounded-2xl">
-                <b><p class="text-2xl font-mono text-white m-1 sm:m-6">Welkom bij Flitserz</p></b>
-                <div class="m-3 sm:m-6 text-white text-l">
-                    <b><h3 class="text-xl">U wil is wet !!</h3></b>
+        <div class="flex flex-row flex-wrap justify-evenly m-1 sm:m-6 bg-amber-50 rounded-xl drop-shadow-2xl md:w-4/6 bg-cover bg-no-repeat" style="background-image: url('{{ asset('img/Achtergrond_Foto.jpg') }}')">
+            <div class="bg-lime-700 m-1 sm:m-6 sm:w-fit drop-shadow-2xl rounded-2xl">
+                <div class="flex flex-row justify-start">
+                    <b><p class="text-2xl font-mono text-lime-100 pt-6 pl-6">Welkom bij</p></b>
+                    <b><p class="text-3xl font-bold text-red-800 pt-5 pl-2">Flitserz</p></b>
+                </div>
+                <div class="m-3 sm:m-6 text-lime-100 text-l">
+                    <b><h3 class="text-xl text-red-800">U wil is wet !!</h3></b>
                     <b>    Wij staan open voor alle IT-problemen.</b><br>
                     <b>    U bent de baas, en wij zijn slechts een tool voor uw multitool.</b><br><br>
 
@@ -44,7 +50,7 @@
                     <b>    Wij zijn uit op een snelle en professionele service voor iedereen.</b>
                 </div>
             </div>
-            <div class="bg-white m-1 sm:m-6 shadow-xl rounded-2xl">
+            <div class="bg-amber-100 m-1 sm:m-6 sm:w-fit shadow-xl rounded-2xl">
                 <b><p class="text-2xl font-mono m-1 sm:m-6">Waarom ons?</p></b>
                 <div class="m-3 sm:m-6">
                     <b><h3 class="text-xl">Goede ICT'ers en voordelig?!</h3></b>
@@ -54,7 +60,7 @@
                     <b>    Wij maken zelfs gebruik van Arctic thermalpaste en premium thermalpads.</b>
                 </div>
             </div>
-            <div class="bg-white m-1 sm:m-6 shadow-xl rounded-2xl">
+            <div class="bg-amber-100 m-1 sm:m-6 sm:w-fit shadow-xl rounded-2xl">
                 <b><p class="text-2xl font-mono m-1 sm:m-6">Gratis diagnose!</p></b>
                 <div class="m-3 sm:m-6">
                     <b><h3 class="text-xl">Wat is een gratis diagnose ?!</h3></b>
@@ -65,8 +71,8 @@
 
                     <b><h3 class="text-xl">Maak een afspraak en wij nemen zo snel mogelijk contact met u op.</h3></b><br>
                     <div class="flex justify-center">
-                        <button class="px-6 py-1 bg-violet-300 hover:bg-violet-400 text-black rounded-lg border-2 border-violet-400 hover:border-violet-500 shadow-xl">
-                            <a class="pl-6 md:pl-0 md:pt-6 text-black text-lg hover:text-xl" href="/contact">Contact opnemen</a>
+                        <button class="px-6 py-1 bg-lime-600 hover:bg-lime-500 text-black rounded-lg border-2 border-lime-900 hover:border-lime-800 shadow-xl">
+                            <a class="pl-6 md:pl-0 md:pt-6 text-black text-lg" href="/contact">Contact opnemen</a>
                         </button>   
                     </div>
                 </div>
