@@ -31,12 +31,12 @@
                 <b><p class="text-2xl font-mono text-lime-100 m-1 sm:m-6">Contact op nemen</p></b>
                 <div class="m-3 sm:m-6 text-l text-lime-100">
                     <b>Vragen ?</b><br>
-                    Heeft u vragen of wilt u contact opnemen met Flitserz ?<br>
-                    Vul het contact formulier in en wij zullen zo snel mogelijk contact met u opnemen<br><br>
+                    Heeft u vragen of wilt u contact opnemen met Flitserz?<br>
+                    Vul het contact formulier in en wij zullen zo snel mogelijk contact met u opnemen.<br><br>
                     <b>Opgelet</b><br>
-                    Flitserz is alleen actief in Gooi en Vechtstreek,<br>
-                    en een enkele gemeenten hier buiten.<br>
-                    Geef dus duidelijk aan in welke gemeente u zich bevind.<br>
+                    Flitserz is alleen actief in Gooi en Vechtstreek.<br>
+                    En een enkele gemeenten hier buiten.<br>
+                    Geef svp duidelijk aan in welke gemeente u woont.<br>
                 </div>
             </div>
 

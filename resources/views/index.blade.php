@@ -37,41 +37,43 @@
                 <div class="flex flex-row justify-start">
                     <b><p class="text-2xl font-mono text-lime-100 pt-6 pl-6">Welkom bij</p></b>
                     <b><p class="text-3xl font-bold text-red-800 pt-5 pl-2">Flitserz</p></b>
+                    <b><p class="text-2xl font-mono text-lime-100 pt-6 pl-2 pr-6">voor alle IT-problemen</p></b>
                 </div>
                 <div class="m-3 sm:m-6 text-lime-100 text-l">
-                    <b><h3 class="text-xl text-red-800">U wil is wet !!</h3></b>
-                    <b>    Wij staan open voor alle IT-problemen.</b><br>
-                    <b>    U bent de baas, en wij zijn slechts een tool voor uw multitool.</b><br><br>
-
-                    <b><h3 class="text-xl">Flitserz, omdat het snel beter kan.</h3></b>
-                    <b>    Wij zijn uit op een snelle en professionele service voor iedereen.</b>
+                    <b><h3 class="text-xl text-red-800">Flitserz, omdat het snel beter kan.</h3></b>
+                    <b>    Met een professionele service helpen wij u bliksemsnel bij alle IT-problemen.</b><br>
                 </div>
             </div>
             <div class="bg-amber-100 m-1 sm:m-6 sm:w-fit shadow-xl rounded-2xl">
-                <b><p class="text-2xl font-mono m-1 sm:m-6">Waarom ons?</p></b>
+                <b><p class="text-2xl font-mono m-1 sm:m-6">Waarom Flitserz?</p></b>
                 <div class="m-3 sm:m-6">
-                    <b><h3 class="text-xl">Goede ICT'ers en voordelig?!</h3></b>
-                    <b>    Wij van Flitserz bieden een premium service aan.</b><br>
-                    <b>    Momenteel zijn we de voordeligste keuzen vergeleken met onze concurrenten.</b><br>
-                    <b>    Echt waar zoek maar op ;D !!!</b><br>
-                    <b>    Wij maken zelfs gebruik van Arctic thermalpaste en premium thermalpads.</b>
+                    <b><h3 class="text-xl">Goede, ervaren, professionele ICT'ers</h3></b><br>
+                    <b>    Flitserz biedt een premium service; vast pakket diensten voor vaste prijs.</b><br>
+                    <b>    Voordeligste keuze vergeleken met anderen.</b><br><br>
+                    <b>    * Wij komen op afspraak bij u thuis.</b><br>
+                    <b>    * Snelle betrouwbare dienstverlening.</b><br>
+                    <b>    * Persoonlijk en vertrouwelijk.</b>
                 </div>
             </div>
             <div class="bg-amber-100 m-1 sm:m-6 sm:w-fit shadow-xl rounded-2xl">
                 <b><p class="text-2xl font-mono m-1 sm:m-6">Gratis diagnose!</p></b>
                 <div class="m-3 sm:m-6">
-                    <b><h3 class="text-xl">Wat is een gratis diagnose ?!</h3></b>
-                    <b>    Onderzoek doen naar het gewilde apparaat, en mogelijke problemen vast stellen.</b><br>
-                    <b>    Aangeven hoe wij dit kunnen oplossen voor u, en waarom.</b><br>
-                    <b>    Luisteren naar uw verhaal, om gericht onderzoek te doen.</b><br>
-                    <b>    Vragen beantwoorden die er bij komen kijken.</b><br><br>
+                    <b><h3 class="text-xl">Gratis diagnose.</h3></b>
+                    <b>    In goed overleg met u onderzoeken wij uw internet-apparatuur om problemen vast te stellen.</b><br>
+                    <b>    Dat geldt voor alle apparaten zoals smartphone, PC, tablet, laptop, smartwatch.</b><br><br>
+                    <b>    Het stellen van de diagnose is gratis. Wij geven ook gratis aan hoe problemen opgelost kunnen worden.</b><br>
+                    <b>    Om gericht onderzoek te doen hebben wij veel aandacht voor uw ervaringen en vragen.</b><br><br>
 
                     <b><h3 class="text-xl">Maak een afspraak en wij nemen zo snel mogelijk contact met u op.</h3></b><br>
                     <div class="flex justify-center">
                         <button class="px-6 py-1 bg-lime-600 hover:bg-lime-500 text-black rounded-lg border-2 border-lime-900 hover:border-lime-800 shadow-xl">
-                            <a class="pl-6 md:pl-0 md:pt-6 text-black text-lg" href="/contact">Contact opnemen</a>
+                            <a class="pl-6 md:pl-0 md:pt-6 text-black text-lg" href="/contact">Contact op nemen</a>
                         </button>   
                     </div>
+                    <b><h3 class="text-xl">Opgelet</h3></b>
+                    <b>    Flitserz is alleen actief in Gooi en Vechtstreek.</b><br>
+                    <b>    En een enkele gemeenten hier buiten.</b><br>
+                    <b>    Geef svp duidelijk aan in welke gemeente u woont.</b><br>
                 </div>
             </div>
         </div>

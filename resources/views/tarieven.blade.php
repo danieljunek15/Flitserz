@@ -33,20 +33,7 @@
                     <b><h3 class="text-xl">Uur tarief</h3></b>
                     <b>    36,-</b><br><br><br><br>
                     <b><h3 class="text-xl">APK Deluxe</h3></b>
-                    <b>    129,-</b>
-                </div>
-            </div>
-
-            <div class="bg-lime-100 m-1 sm:m-6 shadow-2xl rounded-2xl">
-                <b><p class="text-2xl font-mono text-black m-1 sm:m-6">Uitleg</p></b>
-                <div class="m-3 sm:m-6 text-black">
-                    <b><h3 class="text-xl">Hoe werkt het uur tarief ?</h3></b>
-                    <b>    Minimale afname is een half uur, vanaf daar rekenen wij 9,- per kwartier.</b><br>
-                    <b>    Wij zetten een stopwatch aan om de tijd nauwkeurig bij te houden.</b><br>
-                    <b>    Na dat we de taak succes vol hebben afgerond vullen we samen het factuur in.</b><br><br>
-                    <b><h3 class="text-xl">Hoe werkt het APK Deluxe tarief ?</h3></b>
-                    <b>    Eerst word er een diagnose gesteld en als deze naar zinnen is gaan we aan de slag.</b><br>
-                    <b>    U betaald dan ook eenmalig het bedrag dat is aangegeven.</b>
+                    <b>    149,-</b>
                 </div>
             </div>
         </div>

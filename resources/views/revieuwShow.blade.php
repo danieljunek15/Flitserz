@@ -27,7 +27,7 @@
         </div>
 
         <div class="flex flex-col w-auto object-scale-down md:flex-row md:w-3/4 md:object-contain">
-            <div class="flex justify-center overflow-y-scroll h-[32rem] rounded-xl">
+            <div class="flex justify-center overflow-y-scroll h-[32rem] rounded-xl pl-4">
                 <div class="flex flex-col justify-evenly bg-lime-100 rounded-xl h-fit drop-shadow-2xl w-auto md:w-full object-scale-down md:object-contain">
                     @foreach ($reviewData as $row)
                     <div class="bg-lime-700 m-1 sm:m-6 drop-shadow-2xl rounded-2xl object-scale-down md:object-contain">
@@ -46,7 +46,7 @@
                     @endforeach
                 </div>
             </div>  
-            <div class="flex flex-col justify-start sm:justify-center pb-6 pr-6 w-auto md:w-auto">
+            <div class="flex flex-col item-center sm:justify-center pb-6 md:pl-0 w-fit md:w-auto">
                 <div class="m-1 sm:m-6 bg-white rounded-xl drop-shadow-2xl w-auto bg-cover bg-no-repeat" style="background-image: url('{{ asset('img/bg_review.jpg') }}')">
                     <form action="/revieuw/create" method="POST">
                     @if ($errors->any())
