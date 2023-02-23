@@ -632,6 +632,9 @@ video {
 .h-\[500px\] {
   height: 500px;
 }
+.h-3\/4 {
+  height: 75%;
+}
 .min-h-full {
   min-height: 100%;
 }
@@ -651,6 +654,9 @@ video {
 }
 .w-4\/12 {
   width: 33.333333%;
+}
+.w-1\/2 {
+  width: 50%;
 }
 .min-w-\[60\%\] {
   min-width: 60%;
@@ -729,6 +735,9 @@ video {
 }
 .overflow-y-auto {
   overflow-y: auto;
+}
+.overflow-y-hidden {
+  overflow-y: hidden;
 }
 .overflow-y-scroll {
   overflow-y: scroll;
