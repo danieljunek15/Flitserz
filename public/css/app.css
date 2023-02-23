@@ -629,6 +629,9 @@ video {
 .h-screen {
   height: 100vh;
 }
+.h-\[500px\] {
+  height: 500px;
+}
 .min-h-full {
   min-height: 100%;
 }
@@ -662,6 +665,9 @@ video {
 }
 .max-w-\[95\%\] {
   max-width: 95%;
+}
+.flex-none {
+  flex: none;
 }
 .cursor-pointer {
   cursor: pointer;
