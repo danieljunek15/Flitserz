@@ -1218,6 +1218,10 @@ video {
     width: auto;
   }
 
+  .sm\:w-1\/2 {
+    width: 50%;
+  }
+
   .sm\:max-w-lg {
     max-width: 32rem;
   }
