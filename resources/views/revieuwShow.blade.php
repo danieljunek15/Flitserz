@@ -27,7 +27,7 @@
         </div>
 
         <div class="flex flex-col w-auto object-scale-down md:flex-row md:w-3/4 md:object-contain">
-            <section class="flex-none sticky h-screen overflow-y-scroll w-1/2 rounded-xl pl-4">
+            <section class="flex-none sticky h-screen overflow-y-scroll w-fill rounded-xl pl-4">
                 <div class="flex flex-col justify-evenly bg-lime-100 rounded-xl h-fit drop-shadow-2xl w-auto md:w-full object-scale-down md:object-contain">
                     @foreach ($reviewData as $row)
                     <div class="bg-lime-700 m-1 sm:m-6 drop-shadow-2xl rounded-2xl object-scale-down md:object-contain">
