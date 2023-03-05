@@ -40,13 +40,13 @@
                     <b>    Wij doen dit altijd in overleg met u.</b><br><br>
                     <b><h3 class="text-xl">APK Deluxe</h3></b>
                     <b>    De Basic en APK-Pro worden uitgevoerd</b><br>
-                    <b>    Wij vervangen de thermale paste/pads worden vervangen van de desktop/laptop.</b><br>
+                    <b>    Wij vervangen de thermale paste/pads van de desktop/laptop.</b><br>
                     <b>    Wij installeren handige programma's voor beter gebruik van laptop of desktop.</b><br>
                     <b>    Met uitleg en korte training over deze programma's die makkelijk in gebruik zijn.</b>          
                 </div>
             </div>
             <div class="bg-amber-100 m-1 sm:m-6 shadow-xl rounded-2xl">
-                <b><p class="text-2xl font-mono m-1 sm:m-6">Hulp bij het bouwen van u desktop</p></b>
+                <b><p class="text-2xl font-mono m-1 sm:m-6">Hulp bij het bouwen van uw desktop</p></b>
                 <div class="m-3 sm:m-6 text-l">
                     <b>-   Wij kunnen adviseren en assisteren bij het bouwproces.</b><br>
                     <b>-   Wij kunnen desgewenst het hele proces overnemen, en alles gebruiksklaar maken.</b><br>

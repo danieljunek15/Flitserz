@@ -34,17 +34,17 @@
                     <b>Flitserz is een jong huis-aan-huis ICT oplossing voor jong en oud.</b><br><br>
                     <b>Als u om wat voor reden niet uit huis kan, dan is de Premium huis-aan-huis IT oplossing zeer geschikt voor u.</b><br><br>
                     <b><h3 class="text-xl">Wat is het doel van Flitserz</h3></b>
-                    <b>    Flitserz streeft er naar om de beste, voordeligste en vriendelijkste IT oplossing te worden van u buurt.</b><br>
+                    <b>    Flitserz streeft er naar om de beste, voordeligste en vriendelijkste IT oplossing te worden van uw buurt.</b><br>
                     <b>    Wij staan voor klantvriendelijkheid, tevredenheid en kwaliteit.</b><br>
                 </div>
             </div>
 
             <div class="bg-amber-100 m-1 sm:m-6 shadow-xl rounded-2xl">
-                <b><p class="text-2xl font-mono m-1 sm:m-6">Klant vriendelijk</p></b>
+                <b><p class="text-2xl font-mono m-1 sm:m-6">Klantvriendelijk</p></b>
                 <div class="m-3 sm:m-6 text-l">
                     <b>Flitserz biedt een gratis diagnose aan voor iedereen die dit graag wilt.</b><br><br>
                     <b>Na de diagnose word er aangegeven wat er technisch mogelijk is.</b><br>
-                    <b>Omdat Flitserz een jong bedrijf is en goede communicatie wil, hanteren een "NO FIX NO PAY" beleid.</b><br>
+                    <b>Omdat Flitserz een jong bedrijf is en goede communicatie wil, hanteren wij een "NO FIX NO PAY" beleid.</b><br>
                 </div>
             </div>
 
@@ -67,16 +67,16 @@
                 </div>
                 <div class="m-3 sm:m-6 text-l">
                     <b><h3 class="text-xl">Wie ben ik ?</h3></b>
-                    <b>Mijn naam is Daniël van den Brink en ik ben 21 jaar oud.</b><br>
+                    <b>Mijn naam is Daniël van den Brink en ik ben 22 jaar oud.</b><br>
                     <b>Naast mijn opleiding als software-developer, ben ik ook de trotse eigenaar van Flitserz.</b><br>
                     <b>Samen met Flitserz ben ik gelokaliseerd in Gooi en Vechtstreek.</b><br>
                     <b>Momenteel ben ik de expert van het Flitserz IT team.</b><br>
                     <b>Wanneer u contact met ons maakt en een afspraak wilt ben ik degene die langs komt.</b><br>
-                    <b>Mijn expertise is erg breed in de IT, en sta open voor elke taak.</b><br>
+                    <b>Mijn expertise is erg breed in de IT, en ik sta open voor elke taak.</b><br>
                     <b>Als er een ding is dat ik niet kan afslaan, dan is dat een lekker kopje koffie of thee.</b><br><br>
                     <b><h3 class="text-xl">Wat is mijn doel ?</h3></b>
                     <b>Mijn doel is om u zo te helpen dat u optimaal gebruik kunt maken van u IT-apparaat.</b><br>
-                    <b>Daarom wil reparaties verrichten, adviseren en uitleg geven. Desgewenst kan ik korte training geven.</b><br>
+                    <b>Daarom wil ik reparaties verrichten, adviseren en uitleg geven. Desgewenst kan ik korte training geven.</b><br>
                 </div>
             </div>
 
