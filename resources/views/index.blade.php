@@ -15,7 +15,7 @@
 <link href="{{ asset('/css/app.css') }}" rel="stylesheet">
 
 </head>
-    <body class="h-screen bg-cover bg-no-repeat" style="background-image: url('{{ asset('img/BG-HomePage.JPEG') }}')">
+    <body class="h-screen bg-cover bg-no-repeat" style="background-image: url('{{ asset('img/BG-HomePage.jpeg') }}')">
         <div class="h-full w-screen ">
             <!-- dit is de nav bar ===================================== -->
             <div class="flex sm:flex-row sm:justify-between h-1/4 pt-10 px-20 bg-green-100 bg-opacity-80 flex-col justify-evenly">

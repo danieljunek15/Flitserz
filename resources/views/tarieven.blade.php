@@ -230,7 +230,24 @@
                                 </div>
                             </div>
                             
-                            <div class="bg-green-500 rounded-r-xl rounded-bl-xl h-32 bg-gradient-to-l from-green-800 to-green-500"></div>
+                            <div class="bg-green-500 rounded-r-xl rounded-bl-xl h-32 bg-gradient-to-l from-green-800 to-green-500">
+                                <div class="flex flex-row justify-center px-2 pt-1">
+                                    <b class="text-white">Hardware upgrades</b>
+                                </div>
+                                <div class="flex flex-row justify-between px-2">
+                                    <b class="text-white">Adviseren en consulting voor Telefoon</b><a href=""><b class="text-white text-xs hover:text-sm">Click details</b></a>
+                                </div>
+                                <div class="flex flex-row justify-between px-2">
+                                    <b class="text-white">Adviseren en consulting voor Tablet</b><a href=""><b class="text-white text-xs hover:text-sm">Click details</b></a>
+                                </div>
+                                <div class="flex flex-row justify-between px-2">
+                                    <b class="text-white">Adviseren en consulting voor Laptop</b><a href=""><b class="text-white text-xs hover:text-sm">Click details</b></a>
+                                </div>
+                                <div class="flex flex-row justify-between px-2">
+                                    <b class="text-white">Adviseren en consulting voor Desktop</b><a href=""><b class="text-white text-xs hover:text-sm">Click details</b></a>
+                                </div>
+                            </div>
+
                         </div>
                         <div class="flex flex-col w-1/3">
                             <div class="bg-green-500 rounded-b-xl rounded-tl-xl mb-4 h-32 bg-gradient-to-r from-green-800 to-green-500">
