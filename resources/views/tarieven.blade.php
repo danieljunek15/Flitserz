@@ -10,7 +10,7 @@
 
 
 </head>
-    <body class="h-screen bg-cover bg-no-repeat" style="background-image: url('{{ asset('img/BG-HomePage.JPEG') }}')">
+    <body class="h-screen bg-cover bg-no-repeat" style="background-image: url('{{ asset('img/BG-HomePage.jpeg') }}')">
         <div class="flex grid justify-center flex-col  w-screen bg-white bg-opacity-80">
             <!-- dit is de nav bar ===================================== -->
             <div class="flex sm:flex-row sm:justify-between h-1/4 pt-10 px-20 flex-col justify-evenly">
