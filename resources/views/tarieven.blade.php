@@ -14,18 +14,18 @@
         <div class="flex grid justify-center flex-col  w-screen bg-white bg-opacity-80">
             <!-- dit is de nav bar ===================================== -->
             <div class="flex sm:flex-row sm:justify-between h-1/4 pt-10 px-20 flex-col justify-evenly">
-                <div class="flex justify-center pb-4 pt-34 sm:pb-0"><a href=""><button class="hover:bg-green-600 bg-green-500 px-6 rounded-xl">Flitserz</button></a></div>
+                <div class="flex justify-center pb-5 pt-34 sm:pt-0 sm:pb-0"><a href=""><button class="hover:bg-green-600 bg-green-500 px-6 rounded-xl">Flitserz</button></a></div>
                 <div class="flex flex-row justify-center">
                     <div><a href="/"><button class="hover:bg-green-600 bg-green-500 pl-6 pr-3 rounded-l-xl">Home</button></a></div>
                     <div><a href="/tarieven"><button class="hover:bg-green-600 bg-green-500 px-3">Tarieven</button></a></div>
                     <div><a href="/contact"><button class="hover:bg-green-600 bg-green-500 pr-6 pl-3 rounded-r-xl">Contact</button></a></div>
                 </div>
-                <div class="flex justify-center"><a href="/over"><button class="hover:bg-green-600 bg-green-500 px-6 rounded-xl">Socials</button></a></div>
+                <div class="flex justify-center pt-5 sm:pt-0"><a href="/over"><button class="hover:bg-green-600 bg-green-500 px-6 rounded-xl">Socials</button></a></div>
             </div>
             <!-- dit is einde nav bar =================================== -->
-            <div class="flex flex-row py-4 justify-evenly w-screen">
-                <div><h1><b class="text-4xl">Tarieven</b></h1></div>
-                <div><button class="bg-yellow-400 w-26 h-8 rounded-xl hover:bg-yellow-500"><b class="text-center text-2xl px-5">Contact Opnemen</b></button></div>
+            <div class="flex flex-row py-4 justify-evenly sm:w-screen">
+                <div><h1><b class="text-xl sm:text-4xl">Tarieven</b></h1></div>
+                <div><button class="bg-yellow-400 w-26 h-8 rounded-xl hover:bg-yellow-500"><b class="text-center text-xl sm:text-2xl px-1 sm:px-5">Contact Opnemen</b></button></div>
             </div>
 
             <div class="flex flex-col pt-20">
@@ -34,8 +34,8 @@
                 </div>
 
                 <div class="flex justify-center pt-4">
-                    <div class="flex flex-row w-full sm:w-1/2 ">
-                        <div class="flex flex-col w-2/3 pr-4">
+                    <div class="flex flex-row w-screen sm:w-1/2 ">
+                        <div class="flex flex-col w-3/4 sm:w-2/3 sm:pr-4">
 
                             <div class="bg-green-500 rounded-r-xl rounded-bl-xl mb-4 h-full bg-gradient-to-l from-green-800 to-green-500">
                                 <p class="flex flex-col">
@@ -43,16 +43,16 @@
                                         <b class="text-white">Laptop Reineging</b>
                                     </div>
                                     <div class="flex flex-row justify-between px-2">
-                                        <b class="text-2xs sm:text-base text-white">General Diagnostics</b><a href=""><b class="text-white text-xs hover:text-sm">Click details</b></a>
+                                        <b class="text-2xs sm:text-base text-white">General Diagnostics</b><b class="text-white text-xs hover:text-sm"><a href="">Click details</a></b>
                                     </div>
                                     <div class="flex flex-row justify-between px-2">
-                                        <b class="text-2xs sm:text-base text-white">Stof vrij leven</b><a href=""><b class="text-white text-xs hover:text-sm">Click details</b></a>
+                                        <b class="text-2xs sm:text-base text-white">Stof vrij leven</b><b class="text-white text-xs hover:text-sm"><a href="">Click details</a></b>
                                     </div>
                                     <div class="flex flex-row justify-between px-2">
-                                        <b class="text-2xs sm:text-base text-white">Stof vrij en cool leven</b><a href=""><b class="text-white text-xs hover:text-sm">Click details</b></a>
+                                        <b class="text-2xs sm:text-base text-white">Stof vrij en cool leven</b><b class="text-white text-xs hover:text-sm"><a href="">Click details</a></b>
                                     </div>
                                     <div class="flex flex-row justify-between px-2">
-                                        <b class="text-2xs sm:text-base text-white">Stof vrij, cool en geoptimaliseerd leven</b><a href=""><b class="text-white text-xs hover:text-sm">Click details</b></a>
+                                        <b class="text-2xs sm:text-base text-white">Stof vrij, cool en geoptimaliseerd leven</b><b class="text-white text-xs hover:text-sm"><a href="">Click details</a></b>
                                     </div>
                                 </p>
                             </div>
@@ -63,16 +63,16 @@
                                         <b class="text-base text-white">Desktop Reineging</b>
                                     </div>
                                     <div class="flex flex-row justify-between px-2">
-                                        <b class="text-2xs sm:text-base text-white">General Diagnostics</b><a href=""><b class="text-white text-xs hover:text-sm">Click details</b></a>
+                                        <b class="text-2xs sm:text-base text-white">General Diagnostics</b><b class="text-white text-xs hover:text-sm"><a href="">Click details</a></b>
                                     </div>
                                     <div class="flex flex-row justify-between px-2">
-                                        <b class="text-2xs sm:text-base text-white">Stof vrij leven</b><a href=""><b class="text-white text-xs hover:text-sm">Click details</b></a>
+                                        <b class="text-2xs sm:text-base text-white">Stof vrij leven</b><b class="text-white text-xs hover:text-sm"><a href="">Click details</a></b>
                                     </div>
                                     <div class="flex flex-row justify-between px-2">
-                                        <b class="text-2xs sm:text-base text-white">Stof vrij en cool leven</b><a href=""><b class="text-white text-xs hover:text-sm">Click details</b></a>
+                                        <b class="text-2xs sm:text-base text-white">Stof vrij en cool leven</b><b class="text-white text-xs hover:text-sm"><a href="">Click details</a></b>
                                     </div>
                                     <div class="flex flex-row justify-between px-2">
-                                        <b class="text-2xs sm:text-base text-white">Stof vrij, cool en geoptimaliseerd leven</b><a href=""><b class="text-white text-xs hover:text-sm">Click details</b></a>
+                                        <b class="text-2xs sm:text-base text-white">Stof vrij, cool en geoptimaliseerd leven</b><b class="text-white text-xs hover:text-sm"><a href="">Click details</a></b>
                                     </div>
                                 </p>
                             </div>
@@ -83,42 +83,42 @@
                                         <b class="text-base text-white">Telefoon/Tablet Reineging</b>
                                     </div>
                                     <div class="flex flex-row justify-between px-2">
-                                        <b class="text-2xs sm:text-base text-white">General Diagnostics</b><a href=""><b class="text-white text-xs hover:text-sm">Click details</b></a>
+                                        <b class="text-2xs sm:text-base text-white">General Diagnostics</b><b class="text-white text-xs hover:text-sm"><a href="">Click details</a></b>
                                     </div>
                                     <div class="flex flex-row justify-between px-2">
-                                        <b class="text-2xs sm:text-base text-white">Schoon en geoptimaliseerd leven</b><a href=""><b class="text-white text-xs hover:text-sm">Click details</b></a>
+                                        <b class="text-2xs sm:text-base text-white">Schoon en geoptimaliseerd leven</b><b class="text-white text-xs hover:text-sm"><a href="">Click details</a></b>
                                     </div>
                                 </p>
                             </div>
 
                         </div>
-                        <div class="flex flex-col w-1/3">
+                        <div class="flex flex-col w-1/4 sm:w-1/3">
 
                             <div class="bg-green-500 rounded-b-xl rounded-tl-xl mb-4 h-full bg-gradient-to-r from-green-800 to-green-500">
                                 <p class="flex flex-col text-white">
                                     <b class="text-center pt-1">Tarieven</b>
-                                    <b class="text-center">FREE !</b>
-                                    <b class="text-center">49,- incl BTW</b>
-                                    <b class="text-center">79,- incl BTW</b>
-                                    <b class="text-center">69,- incl BTW</b>
+                                    <b class="text-center text-xs sm:text-base">FREE !</b>
+                                    <b class=" text-center text-xs sm:text-base">49,- <b class="text-white text-xs sm:text-base">incl BTW</b></b>
+                                    <b class=" text-center text-xs sm:text-base">79,- <b class="text-white text-xs sm:text-base">incl BTW</b></b>
+                                    <b class=" text-center text-xs sm:text-base">69,- <b class="text-white text-xs sm:text-base">incl BTW</b></b>
                                 </p>
                             </div>
 
                             <div class="bg-green-500 rounded-b-xl rounded-tl-xl mb-4 h-full bg-gradient-to-r from-green-800 to-green-500">
                                 <p class="flex flex-col text-white">
                                     <b class="text-center pt-1">Tarieven</b>
-                                    <b class="text-center">FREE !</b>
-                                    <b class="text-center">49,- incl BTW</b>
-                                    <b class="text-center">79,- incl BTW</b>
-                                    <b class="text-center">69,- incl BTW</b>
+                                    <b class="text-center text-xs sm:text-base">FREE !</b>
+                                    <b class="text-center text-xs sm:text-base">49,- <b class="text-white text-xs sm:text-base">incl BTW</b></b>
+                                    <b class="text-center text-xs sm:text-base">79,- <b class="text-white text-xs sm:text-base">incl BTW</b></b>
+                                    <b class="text-center text-xs sm:text-base">69,- <b class="text-white text-xs sm:text-base">incl BTW</b></b>
                                 </p>
                             </div>
 
                             <div class="bg-green-500 rounded-b-xl rounded-tl-xl h-full bg-gradient-to-r from-green-800 to-green-500">
                                 <p class="flex flex-col text-white">
                                     <b class="text-center pt-1">Tarieven</b>
-                                    <b class="text-center">FREE !</b>
-                                    <b class="text-center">29,- incl BTW</b>
+                                    <b class="text-center text-xs sm:text-base">FREE !</b>
+                                    <b class="text-center text-xs sm:text-base">29,- <b class="text-white text-xs sm:text-base">incl BTW</b></b>
                                 </p>
                             </div>
                         </div>
@@ -134,25 +134,25 @@
                 </div>
 
                 <div class="flex justify-center pt-4">
-                    <div class="flex flex-row w-full sm:w-1/2 ">
-                        <div class="flex flex-col w-2/3 pr-4">
+                    <div class="flex flex-row w-screen sm:w-1/2 ">
+                        <div class="flex flex-col w-3/4 sm:w-2/3 pr-4">
 
                             <div class="bg-green-500 rounded-r-xl rounded-bl-xl mb-4 h-full bg-gradient-to-l from-green-800 to-green-500">
                                 <p class="flex flex-col">
                                     <div class="flex flex-row justify-center px-2 pt-1">
                                         <b class="text-white">Laptop/Desktop Software</b>
                                     </div>
-                                    <div class="flex flex-row justify-between px-2">
-                                        <b class="text-2xs sm:text-base text-white">Wachtwoord herstellen</b><a href=""><b class="text-white text-xs hover:text-sm">Click details</b></a>
+                                    <div class="flex flex-row justify-between pr-1 sm:px-2">
+                                        <b class="text-2xs sm:text-base text-white">Wachtwoord herstellen</b><b class="text-white text-xs hover:text-sm"><a href="">Click details</a></b>
                                     </div>
-                                    <div class="flex flex-row justify-between px-2">
-                                        <b class="text-2xs sm:text-base text-white">Software Updates</b><a href=""><b class="text-white text-xs hover:text-sm">Click details</b></a>
+                                    <div class="flex flex-row justify-between pr-1 sm:px-2">
+                                        <b class="text-2xs sm:text-base text-white">Software Updates</b><b class="text-white text-xs hover:text-sm"><a href="">Click details</a></b>
                                     </div>
-                                    <div class="flex flex-row justify-between px-2">
-                                        <b class="text-2xs sm:text-base text-white">Performance Optimization</b><a href=""><b class="text-white text-xs hover:text-sm">Click details</b></a>
+                                    <div class="flex flex-row justify-between pr-1 sm:px-2">
+                                        <b class="text-2xs sm:text-base text-white">Performance Optimization</b><b class="text-white text-xs hover:text-sm"><a href="">Click details</a></b>
                                     </div>
-                                    <div class="flex flex-row justify-between px-2">
-                                        <b class="text-2xs sm:text-base text-white">Backup and Data Protection</b><a href=""><b class="text-white text-xs hover:text-sm">Click details</b></a>
+                                    <div class="flex flex-row justify-between pr-1 sm:px-2">
+                                        <b class="text-2xs sm:text-base text-white">Backup and Data Protection</b><b class="text-white text-xs hover:text-sm"><a href="">Click details</a></b>
                                     </div>
                                 </p>
                             </div>
@@ -161,39 +161,39 @@
                                 <div class="flex flex-row justify-center px-2 pt-1">
                                     <b class="text-white">Telefoon/Tablat Software</b>
                                 </div>
-                                <div class="flex flex-row justify-between px-2">
-                                    <b class="text-2xs sm:text-base text-white">Wachtwoord herstellen</b><a href=""><b class="text-white text-xs hover:text-sm">Click details</b></a>
+                                <div class="flex flex-row justify-between pr-1 sm:px-2">
+                                    <b class="text-2xs sm:text-base text-white">Wachtwoord herstellen</b><b class="text-white text-xs hover:text-sm"><a href="">Click details</a></b>
                                 </div>
-                                <div class="flex flex-row justify-between px-2">
-                                    <b class="text-2xs sm:text-base text-white">Software Updates</b><a href=""><b class="text-white text-xs hover:text-sm">Click details</b></a>
+                                <div class="flex flex-row justify-between pr-1 sm:px-2">
+                                    <b class="text-2xs sm:text-base text-white">Software Updates</b><b class="text-white text-xs hover:text-sm"><a href="">Click details</a></b>
                                 </div>
-                                <div class="flex flex-row justify-between px-2">
-                                    <b class="text-2xs sm:text-base text-white">Performance Optimization</b><a href=""><b class="text-white text-xs hover:text-sm">Click details</b></a>
+                                <div class="flex flex-row justify-between pr-1 sm:px-2">
+                                    <b class="text-2xs sm:text-base text-white">Performance Optimization</b><b class="text-white text-xs hover:text-sm"><a href="">Click details</a></b>
                                 </div>
-                                <div class="flex flex-row justify-between px-2">
-                                    <b class="text-2xs sm:text-base text-white">Data overzetten naar nieuwe aparaat</b><a href=""><b class="text-white text-xs hover:text-sm">Click details</b></a>
+                                <div class="flex flex-row justify-between pr-1 sm:px-2">
+                                    <b class="text-2xs sm:text-base text-white">Data overzetten naar nieuwe aparaat</b><b class="text-white text-xs hover:text-sm"><a href="">Click details</a></b>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="flex flex-col w-1/3">
+                        <div class="flex flex-col w-1/4 sm:w-1/3">
                             <div class="bg-green-500 rounded-b-xl rounded-tl-xl mb-4 h-full bg-gradient-to-r from-green-800 to-green-500">
                                 <p class="flex flex-col text-white">
                                     <b class="text-center pt-1">Tarieven</b>
-                                    <b class="text-center">35,- incl BTW</b>
-                                    <b class="text-center">35,- incl BTW</b>
-                                    <b class="text-center">40,- incl BTW</b>
-                                    <b class="text-center">129,- incl BTW</b>
+                                    <b class="text-center text-xs sm:text-base">35,- <b class="text-white text-xs sm:text-base">incl BTW</b></b>
+                                    <b class="text-center text-xs sm:text-base">35,- <b class="text-white text-xs sm:text-base">incl BTW</b></b>
+                                    <b class="text-center text-xs sm:text-base">40,- <b class="text-white text-xs sm:text-base">incl BTW</b></b>
+                                    <b class="text-center text-xs sm:text-base">129,- <b class="text-white text-xs sm:text-base">incl BTW</b></b>
                                 </p>
                             </div>
 
                             <div class="bg-green-500 rounded-b-xl rounded-tl-xl h-full bg-gradient-to-r from-green-800 to-green-500">
                                 <p class="flex flex-col text-white">
                                     <b class="text-center pt-1">Tarieven</b>
-                                    <b class="text-center">35,- incl BTW</b>
-                                    <b class="text-center">19,- incl BTW</b>
-                                    <b class="text-center">19,- incl BTW</b>
-                                    <b class="text-center">29,- incl BTW</b>
+                                    <b class="text-center text-xs sm:text-base">35,- <b class="text-white text-xs sm:text-base">incl BTW</b></b>
+                                    <b class="text-center text-xs sm:text-base">19,- <b class="text-white text-xs sm:text-base">incl BTW</b></b>
+                                    <b class="text-center text-xs sm:text-base">19,- <b class="text-white text-xs sm:text-base">incl BTW</b></b>
+                                    <b class="text-center text-xs sm:text-base">29,- <b class="text-white text-xs sm:text-base">incl BTW</b></b>
                                 </p>
                             </div>
                         </div>
@@ -209,24 +209,24 @@
                 </div>
 
                 <div class="flex justify-center pt-4">
-                    <div class="flex flex-row w-full sm:w-1/2 ">
-                        <div class="flex flex-col w-2/3 pr-4">
+                    <div class="flex flex-row w-screen sm:w-1/2 ">
+                        <div class="flex flex-col w-3/4 sm:w-2/3 pr-4 mb-4">
 
                             <div class="bg-green-500 rounded-r-xl rounded-bl-xl mb-4 h-full bg-gradient-to-l from-green-800 to-green-500">
                                 <div class="flex flex-row justify-center px-2 pt-1">
                                     <b class="text-white">Adviseren</b>
                                 </div>
-                                <div class="flex flex-row justify-between px-2">
-                                    <b class="text-2xs sm:text-base text-white">Adviseren en consulting voor Telefoon</b><a href=""><b class="text-white text-xs hover:text-sm">Click details</b></a>
+                                <div class="flex flex-row justify-between px-1 sm:px-2">
+                                    <b class="text-2xs sm:text-base text-white">Adviseren en consulting voor Telefoon</b><b class="text-white text-xs hover:text-sm pr-1"><a href="">Click details</a></b>
                                 </div>
-                                <div class="flex flex-row justify-between px-2">
-                                    <b class="text-2xs sm:text-base text-white">Adviseren en consulting voor Tablet</b><a href=""><b class="text-white text-xs hover:text-sm">Click details</b></a>
+                                <div class="flex flex-row justify-between px-1 sm:px-2">
+                                    <b class="text-2xs sm:text-base text-white">Adviseren en consulting voor Tablet</b><b class="text-white text-xs hover:text-sm pr-1"><a href="">Click details</a></b>
                                 </div>
-                                <div class="flex flex-row justify-between px-2">
-                                    <b class="text-2xs sm:text-base text-white">Adviseren en consulting voor Laptop</b><a href=""><b class="text-white text-xs hover:text-sm">Click details</b></a>
+                                <div class="flex flex-row justify-between px-1 sm:px-2">
+                                    <b class="text-2xs sm:text-base text-white">Adviseren en consulting voor Laptop</b><b class="text-white text-xs hover:text-sm pr-1"><a href="">Click details</a></b>
                                 </div>
-                                <div class="flex flex-row justify-between px-2">
-                                    <b class="text-2xs sm:text-base text-white">Adviseren en consulting voor Desktop</b><a href=""><b class="text-white text-xs hover:text-sm">Click details</b></a>
+                                <div class="flex flex-row justify-between px-1 sm:px-2">
+                                    <b class="text-2xs sm:text-base text-white">Adviseren en consulting voor Desktop</b><b class="text-white text-xs hover:text-sm pr-1"><a href="">Click details</a></b>
                                 </div>
                             </div>
                             
@@ -235,16 +235,16 @@
                                     <b class="text-white">Hardware upgrades Laptop</b>
                                 </div>
                                 <div class="flex flex-row justify-between px-2">
-                                    <b class="text-2xs sm:text-base text-white">Geheugen (RAM) Upgrades</b><a href=""><b class="text-white text-xs hover:text-sm">Click details</b></a>
+                                    <b class="text-2xs sm:text-base text-white">Geheugen (RAM) Upgrades</b><b class="text-white text-xs hover:text-sm"><a href="">Click details</a></b>
                                 </div>
                                 <div class="flex flex-row justify-between px-2">
-                                    <b class="text-2xs sm:text-base text-white">Opslag upgrade</b><a href=""><b class="text-white text-xs hover:text-sm">Click details</b></a>
+                                    <b class="text-2xs sm:text-base text-white">Opslag upgrade</b><b class="text-white text-xs hover:text-sm"><a href="">Click details</a></b>
                                 </div>
                                 <div class="flex flex-row justify-between px-2">
-                                    <b class="text-2xs sm:text-base text-white">Batterij vervanging/upgrade</b><a href=""><b class="text-white text-xs hover:text-sm">Click details</b></a>
+                                    <b class="text-2xs sm:text-base text-white">Batterij vervanging/upgrade</b><b class="text-white text-xs hover:text-sm"><a href="">Click details</a></b>
                                 </div>
                                 <div class="flex flex-row justify-between px-2">
-                                    <b class="text-2xs sm:text-base text-white">Wi-Fi-kaart Upgrade</b><a href=""><b class="text-white text-xs hover:text-sm">Click details</b></a>
+                                    <b class="text-2xs sm:text-base text-white">Wi-Fi-kaart Upgrade</b><b class="text-white text-xs hover:text-sm"><a href="">Click details</a></b>
                                 </div>
                             </div>
 
@@ -253,65 +253,65 @@
                                     <b class="text-white">Hardware upgrades Desktop</b>
                                 </div>
                                 <div class="flex flex-row justify-between px-2">
-                                    <b class="text-2xs sm:text-base text-white">Geheugen (RAM) Upgrades</b><a href=""><b class="text-white text-xs hover:text-sm">Click details</b></a>
+                                    <b class="text-2xs sm:text-base text-white">Geheugen (RAM) Upgrades</b><b class="text-white text-xs hover:text-sm"><a href="">Click details</a></b>
                                 </div>
                                 <div class="flex flex-row justify-between px-2">
-                                    <b class="text-2xs sm:text-base text-white">Opslag upgrade</b><a href=""><b class="text-white text-xs hover:text-sm">Click details</b></a>
+                                    <b class="text-2xs sm:text-base text-white">Opslag upgrade</b><b class="text-white text-xs hover:text-sm"><a href="">Click details</a></b>
                                 </div>
                                 <div class="flex flex-row justify-between px-2">
-                                    <b class="text-2xs sm:text-base text-white">Grafische kaart (GPU) Upgrade</b><a href=""><b class="text-white text-xs hover:text-sm">Click details</b></a>
+                                    <b class="text-2xs sm:text-base text-white">Grafische kaart (GPU) Upgrade</b><b class="text-white text-xs hover:text-sm"><a href="">Click details</a></b>
                                 </div>
                                 <div class="flex flex-row justify-between px-2">
-                                    <b class="text-2xs sm:text-base text-white">Wi-Fi-kaart Upgrade</b><a href=""><b class="text-white text-xs hover:text-sm">Click details</b></a>
+                                    <b class="text-2xs sm:text-base text-white">Wi-Fi-kaart Upgrade</b><b class="text-white text-xs hover:text-sm"><a href="">Click details</a></b>
                                 </div>
                                 <div class="flex flex-row justify-between px-2">
-                                    <b class="text-2xs sm:text-base text-white">Processor (CPU) Upgrade</b><a href=""><b class="text-white text-xs hover:text-sm">Click details</b></a>
+                                    <b class="text-2xs sm:text-base text-white">Processor (CPU) Upgrade</b><b class="text-white text-xs hover:text-sm"><a href="">Click details</a></b>
                                 </div>
                                 <div class="flex flex-row justify-between px-2">
-                                    <b class="text-2xs sm:text-base text-white">Voeding Upgrade</b><a href=""><b class="text-white text-xs hover:text-sm">Click details</b></a>
+                                    <b class="text-2xs sm:text-base text-white">Voeding Upgrade</b><b class="text-white text-xs hover:text-sm"><a href="">Click details</a></b>
                                 </div>
                                 <div class="flex flex-row justify-between px-2">
-                                    <b class="text-2xs sm:text-base text-white">Moederbord Upgrade</b><a href=""><b class="text-white text-xs hover:text-sm">Click details</b></a>
+                                    <b class="text-2xs sm:text-base text-white">Moederbord Upgrade</b><b class="text-white text-xs hover:text-sm"><a href="">Click details</a></b>
                                 </div>
                                 <div class="flex flex-row justify-between px-2">
-                                    <b class="text-2xs sm:text-base text-white">Koeling Upgrade</b><a href=""><b class="text-white text-xs hover:text-sm">Click details</b></a>
+                                    <b class="text-2xs sm:text-base text-white">Koeling Upgrade</b><b class="text-white text-xs hover:text-sm"><a href="">Click details</a></b>
                                 </div>
                             </div>
 
                         </div>
-                        <div class="flex flex-col w-1/3">
+                        <div class="flex flex-col mb-4 w-1/4 sm:w-1/3 ">
 
-                            <div class="bg-green-500 rounded-b-xl rounded-tl-xl mb-4 h-full bg-gradient-to-r from-green-800 to-green-500">
+                            <div class="bg-green-500 rounded-b-xl rounded-tl-xl mb-4 h-fit bg-gradient-to-r from-green-800 to-green-500">
                                 <p class="flex flex-col text-white">
                                     <b class="text-center pt-1">Tarieven</b>
-                                    <b class="text-center">39,- incl BTW</b>
-                                    <b class="text-center">39,- incl BTW</b>
-                                    <b class="text-center">39,- incl BTW</b>
-                                    <b class="text-center">39,- incl BTW</b>
+                                    <b class="text-center text-xs sm:text-base">39,- <b class="text-white text-xs sm:text-base">incl BTW</b></b>
+                                    <b class="text-center text-xs sm:text-base">39,- <b class="text-white text-xs sm:text-base">incl BTW</b></b>
+                                    <b class="text-center text-xs sm:text-base">39,- <b class="text-white text-xs sm:text-base">incl BTW</b></b>
+                                    <b class="text-center text-xs sm:text-base">39,- <b class="text-white text-xs sm:text-base">incl BTW</b></b>
                                 </p>
                             </div>
 
-                            <div class="bg-green-500 rounded-b-xl rounded-tl-xl mb-4 h-full bg-gradient-to-r from-green-800 to-green-500">
+                            <div class="bg-green-500 rounded-b-xl rounded-tl-xl mb-4 h-fit bg-gradient-to-r from-green-800 to-green-500">
                                 <p class="flex flex-col text-white">
                                     <b class="text-center pt-1">Tarieven</b>
-                                    <b class="text-center">29,- incl BTW</b>
-                                    <b class="text-center">29,- incl BTW</b>
-                                    <b class="text-center">29,- incl BTW</b>
-                                    <b class="text-center">29,- incl BTW</b>
+                                    <b class="text-center text-xs sm:text-base">29,- <b class="text-white text-xs sm:text-base">incl BTW</b></b>
+                                    <b class="text-center text-xs sm:text-base">29,- <b class="text-white text-xs sm:text-base">incl BTW</b></b>
+                                    <b class="text-center text-xs sm:text-base">29,- <b class="text-white text-xs sm:text-base">incl BTW</b></b>
+                                    <b class="text-center text-xs sm:text-base">29,- <b class="text-white text-xs sm:text-base">incl BTW</b></b>
                                 </p>
                             </div>
 
-                            <div class="bg-green-500 rounded-b-xl rounded-tl-xl h-full bg-gradient-to-r from-green-800 to-green-500">
+                            <div class="bg-green-500 rounded-b-xl rounded-tl-xl h-fit bg-gradient-to-r from-green-800 to-green-500">
                                 <p class="flex flex-col text-white">
                                     <b class="text-center pt-1">Tarieven</b>
-                                    <b class="text-center">29,- incl BTW</b>
-                                    <b class="text-center">29,- incl BTW</b>
-                                    <b class="text-center">29,- incl BTW</b>
-                                    <b class="text-center">29,- incl BTW</b>
-                                    <b class="text-center">29,- incl BTW</b>
-                                    <b class="text-center">29,- incl BTW</b>
-                                    <b class="text-center">29,- incl BTW</b>
-                                    <b class="text-center">29,- incl BTW</b>
+                                    <b class="text-center text-xs sm:text-base">29,- <b class="text-white text-xs sm:text-base">incl BTW</b></b>
+                                    <b class="text-center text-xs sm:text-base">29,- <b class="text-white text-xs sm:text-base">incl BTW</b></b>
+                                    <b class="text-center text-xs sm:text-base">29,- <b class="text-white text-xs sm:text-base">incl BTW</b></b>
+                                    <b class="text-center text-xs sm:text-base">29,- <b class="text-white text-xs sm:text-base">incl BTW</b></b>
+                                    <b class="text-center text-xs sm:text-base">29,- <b class="text-white text-xs sm:text-base">incl BTW</b></b>
+                                    <b class="text-center text-xs sm:text-base">29,- <b class="text-white text-xs sm:text-base">incl BTW</b></b>
+                                    <b class="text-center text-xs sm:text-base">29,- <b class="text-white text-xs sm:text-base">incl BTW</b></b>
+                                    <b class="text-center text-xs sm:text-base">29,- <b class="text-white text-xs sm:text-base">incl BTW</b></b>
                                 </p>
                             </div>
 
