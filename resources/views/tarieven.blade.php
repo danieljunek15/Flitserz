@@ -35,23 +35,23 @@
 
                 <div class="flex justify-center pt-4">
                     <div class="flex flex-row w-screen sm:w-1/2 ">
-                        <div class="flex flex-col w-3/4 sm:w-2/3 sm:pr-4">
+                        <div class="flex flex-col w-3/4 sm:w-2/3 pr-3 sm:pr-4">
 
                             <div class="bg-green-500 rounded-r-xl rounded-bl-xl mb-4 h-full bg-gradient-to-l from-green-800 to-green-500">
                                 <p class="flex flex-col">
                                     <div class="flex flex-row justify-center px-2 pt-1">
                                         <b class="text-white">Laptop Reineging</b>
                                     </div>
-                                    <div class="flex flex-row justify-between px-2">
+                                    <div class="flex flex-row justify-between px-1 sm:px-2">
                                         <b class="text-2xs sm:text-base text-white">General Diagnostics</b><b class="text-white text-1xs hover:text-sm"><a href="">Click details</a></b>
                                     </div>
-                                    <div class="flex flex-row justify-between px-2">
+                                    <div class="flex flex-row justify-between px-1 sm:px-2">
                                         <b class="text-2xs sm:text-base text-white">Stof vrij leven</b><b class="text-white text-1xs hover:text-sm"><a href="">Click details</a></b>
                                     </div>
-                                    <div class="flex flex-row justify-between px-2">
+                                    <div class="flex flex-row justify-between px-1 sm:px-2">
                                         <b class="text-2xs sm:text-base text-white">Stof vrij en cool leven</b><b class="text-white text-1xs hover:text-sm"><a href="">Click details</a></b>
                                     </div>
-                                    <div class="flex flex-row justify-between px-2">
+                                    <div class="flex flex-row justify-between px-1 sm:px-2">
                                         <b class="text-2xs sm:text-base text-white">Stof vrij, cool en geoptimaliseerd leven</b><b class="text-white text-1xs hover:text-sm"><a href="">Click details</a></b>
                                     </div>
                                 </p>
@@ -62,16 +62,16 @@
                                     <div class="flex flex-row justify-center px-2 pt-1">
                                         <b class="text-base text-white">Desktop Reineging</b>
                                     </div>
-                                    <div class="flex flex-row justify-between px-2">
+                                    <div class="flex flex-row justify-between px-1 sm:px-2">
                                         <b class="text-2xs sm:text-base text-white">General Diagnostics</b><b class="text-white text-1xs hover:text-sm"><a href="">Click details</a></b>
                                     </div>
-                                    <div class="flex flex-row justify-between px-2">
+                                    <div class="flex flex-row justify-between px-1 sm:px-2">
                                         <b class="text-2xs sm:text-base text-white">Stof vrij leven</b><b class="text-white text-1xs hover:text-sm"><a href="">Click details</a></b>
                                     </div>
-                                    <div class="flex flex-row justify-between px-2">
+                                    <div class="flex flex-row justify-between px-1 sm:px-2">
                                         <b class="text-2xs sm:text-base text-white">Stof vrij en cool leven</b><b class="text-white text-1xs hover:text-sm"><a href="">Click details</a></b>
                                     </div>
-                                    <div class="flex flex-row justify-between px-2">
+                                    <div class="flex flex-row justify-between px-1 sm:px-2">
                                         <b class="text-2xs sm:text-base text-white">Stof vrij, cool en geoptimaliseerd leven</b><b class="text-white text-1xs hover:text-sm"><a href="">Click details</a></b>
                                     </div>
                                 </p>
@@ -82,10 +82,10 @@
                                     <div class="flex flex-row justify-center px-2 pt-1">
                                         <b class="text-base text-white">Telefoon/Tablet Reineging</b>
                                     </div>
-                                    <div class="flex flex-row justify-between px-2">
+                                    <div class="flex flex-row justify-between px-1 sm:px-2">
                                         <b class="text-2xs sm:text-base text-white">General Diagnostics</b><b class="text-white text-1xs hover:text-sm"><a href="">Click details</a></b>
                                     </div>
-                                    <div class="flex flex-row justify-between px-2">
+                                    <div class="flex flex-row justify-between px-1 sm:px-2">
                                         <b class="text-2xs sm:text-base text-white">Schoon en geoptimaliseerd leven</b><b class="text-white text-1xs hover:text-sm"><a href="">Click details</a></b>
                                     </div>
                                 </p>
@@ -135,23 +135,23 @@
 
                 <div class="flex justify-center pt-4">
                     <div class="flex flex-row w-screen sm:w-1/2 ">
-                        <div class="flex flex-col w-3/4 sm:w-2/3 pr-4">
+                        <div class="flex flex-col w-3/4 sm:w-2/3 pr-3 sm:pr-4">
 
                             <div class="bg-green-500 rounded-r-xl rounded-bl-xl mb-4 h-full bg-gradient-to-l from-green-800 to-green-500">
                                 <p class="flex flex-col">
                                     <div class="flex flex-row justify-center px-2 pt-1">
                                         <b class="text-white">Laptop/Desktop Software</b>
                                     </div>
-                                    <div class="flex flex-row justify-between pr-1 sm:px-2">
+                                    <div class="flex flex-row justify-between px-1 sm:px-2">
                                         <b class="text-2xs sm:text-base text-white">Wachtwoord herstellen</b><b class="text-white text-1xs hover:text-sm"><a href="">Click details</a></b>
                                     </div>
-                                    <div class="flex flex-row justify-between pr-1 sm:px-2">
+                                    <div class="flex flex-row justify-between px-1 sm:px-2">
                                         <b class="text-2xs sm:text-base text-white">Software Updates</b><b class="text-white text-1xs hover:text-sm"><a href="">Click details</a></b>
                                     </div>
-                                    <div class="flex flex-row justify-between pr-1 sm:px-2">
+                                    <div class="flex flex-row justify-between px-1 sm:px-2">
                                         <b class="text-2xs sm:text-base text-white">Performance Optimization</b><b class="text-white text-1xs hover:text-sm"><a href="">Click details</a></b>
                                     </div>
-                                    <div class="flex flex-row justify-between pr-1 sm:px-2">
+                                    <div class="flex flex-row justify-between px-1 sm:px-2">
                                         <b class="text-2xs sm:text-base text-white">Backup and Data Protection</b><b class="text-white text-1xs hover:text-sm"><a href="">Click details</a></b>
                                     </div>
                                 </p>
@@ -161,16 +161,16 @@
                                 <div class="flex flex-row justify-center px-2 pt-1">
                                     <b class="text-white">Telefoon/Tablat Software</b>
                                 </div>
-                                <div class="flex flex-row justify-between pr-1 sm:px-2">
+                                <div class="flex flex-row justify-between px-1 sm:px-2">
                                     <b class="text-2xs sm:text-base text-white">Wachtwoord herstellen</b><b class="text-white text-1xs hover:text-sm"><a href="">Click details</a></b>
                                 </div>
-                                <div class="flex flex-row justify-between pr-1 sm:px-2">
+                                <div class="flex flex-row justify-between px-1 sm:px-2">
                                     <b class="text-2xs sm:text-base text-white">Software Updates</b><b class="text-white text-1xs hover:text-sm"><a href="">Click details</a></b>
                                 </div>
-                                <div class="flex flex-row justify-between pr-1 sm:px-2">
+                                <div class="flex flex-row justify-between px-1 sm:px-2">
                                     <b class="text-2xs sm:text-base text-white">Performance Optimization</b><b class="text-white text-1xs hover:text-sm"><a href="">Click details</a></b>
                                 </div>
-                                <div class="flex flex-row justify-between pr-1 sm:px-2">
+                                <div class="flex flex-row justify-between px-1 sm:px-2">
                                     <b class="text-2xs sm:text-base text-white">Data overzetten naar nieuwe aparaat</b><b class="text-white text-1xs hover:text-sm"><a href="">Click details</a></b>
                                 </div>
                             </div>
@@ -210,7 +210,7 @@
 
                 <div class="flex justify-center pt-4">
                     <div class="flex flex-row w-screen sm:w-1/2 ">
-                        <div class="flex flex-col w-3/4 sm:w-2/3 pr-4 mb-4">
+                        <div class="flex flex-col w-3/4 sm:w-2/3 pr-3 sm:pr-4 mb-4">
 
                             <div class="bg-green-500 rounded-r-xl rounded-bl-xl mb-4 h-full bg-gradient-to-l from-green-800 to-green-500">
                                 <div class="flex flex-row justify-center px-2 pt-1">
