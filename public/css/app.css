@@ -1080,9 +1080,6 @@ video {
 .pt-1 {
   padding-top: 0.25rem;
 }
-.pr-4 {
-  padding-right: 1rem;
-}
 .pr-1 {
   padding-right: 0.25rem;
 }
@@ -1116,14 +1113,14 @@ video {
 .text-2xs {
   font-size: 0.6rem;
 }
-.text-xs {
-  font-size: 0.75rem;
+.text-1xs {
+  font-size: 0.67rem;
 }
 .text-base {
   font-size: 1rem;
 }
-.text-1xs {
-  font-size: 0.67rem;
+.text-xs {
+  font-size: 0.75rem;
 }
 .font-bold {
   font-weight: 700;

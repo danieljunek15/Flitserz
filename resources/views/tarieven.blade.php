@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <script src="{{ asset('js/app.js') }}" defer></script>
+<script src="{{ asset('js/tarieven pop-up.js') }}" defer></script>
 
 <link href="{{ asset('/css/app.css') }}" rel="stylesheet">
 
@@ -43,7 +44,7 @@
                                         <b class="text-white">Laptop Reineging</b>
                                     </div>
                                     <div class="flex flex-row justify-between px-1 sm:px-2">
-                                        <b class="text-2xs sm:text-base text-white">General Diagnostics</b><b class="text-white text-1xs hover:text-sm"><a href="">Click details</a></b>
+                                        <b class="text-2xs sm:text-base text-white">General Diagnostics</b><b class="text-white text-1xs hover:text-sm"><a href="/tarieven/1">Click details</a></b>
                                     </div>
                                     <div class="flex flex-row justify-between px-1 sm:px-2">
                                         <b class="text-2xs sm:text-base text-white">Stof vrij leven</b><b class="text-white text-1xs hover:text-sm"><a href="">Click details</a></b>
@@ -322,8 +323,8 @@
             </div>
 
         </div>
-        @if (session()->has('General-Diagnostics'))
-            <?php echo "<script>  window.addEventListener('DOMContentLoaded', (event) => { setTimeout(function() { alert('Ontruimingsplan is succesvol toegevoegd!'); }, 500); });</script>"; ?>
+        @if (session()->has('GeneralDiagnostics'))
+            <?php echo "<script> window.addEventListener('DOMContentLoaded', (event) => { setTimeout(function() { alert('Een gratis diagnose houdt in dat we onderzoeken wat het probleem is, of er eventuele onderliggende kwesties zijn, en wat Flitserz voor u kan betekenen. We verstrekken ook informatie over de geschatte kosten van de benodigde diensten.'); }, 500); });</script>"; ?>
         @endif
     </body>
 </html>

@@ -33,6 +33,7 @@ Route::get('/', [\App\Http\Controllers\indexController::class, 'overzicht']);
 Route::get('/diensten', [\App\Http\Controllers\dienstenController::class, 'overzicht']);
 Route::get('/over', [\App\Http\Controllers\overController::class, 'overzicht']);
 Route::get('/tarieven', [\App\Http\Controllers\tarievenController::class, 'overzicht'])->name('tarieven');
+Route::get('/tarieven/{id}', [\App\Http\Controllers\tarievenController::class, 'popup']);
 Route::get('/contact', [\App\Http\Controllers\ContactformController::class, 'overzicht']);
 Route::post('/contact/create', [\App\Http\Controllers\ContactformController::class, 'store']);
 Route::post('/revieuw/create', [\App\Http\Controllers\ReviewController::class, 'store']);
