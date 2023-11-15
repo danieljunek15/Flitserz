@@ -11,14 +11,4 @@ class tarievenController extends Controller
     { 
         return view('tarieven');
     }
-
-    public function popup(Request $request, $id)
-    {
-        if ($id == 1) {
-            Session::flash("GeneralDiagnostics", "success");
-            return redirect()->route('tarieven');
-        } else {
-            echo "False";
-        }
-    }
 }

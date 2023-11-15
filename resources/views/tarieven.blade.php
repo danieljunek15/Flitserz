@@ -5,7 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <script src="{{ asset('js/app.js') }}" defer></script>
-<script src="{{ asset('js/tarieven pop-up.js') }}" defer></script>
+<script src="{{ asset('js/tarieven pop-up.js') }}"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
 <link href="{{ asset('/css/app.css') }}" rel="stylesheet">
 
@@ -44,16 +45,16 @@
                                         <b class="text-white">Laptop Reineging</b>
                                     </div>
                                     <div class="flex flex-row justify-between px-1 sm:px-2">
-                                        <b class="text-2xs sm:text-base text-white">General Diagnostics</b><b class="text-white text-1xs hover:text-sm"><a href="/tarieven/1">Click details</a></b>
+                                        <b class="text-2xs sm:text-base text-white">General Diagnostics</b><b class="text-white text-1xs hover:text-sm" onclick="popUp(1)" >Click details</b>
                                     </div>
                                     <div class="flex flex-row justify-between px-1 sm:px-2">
-                                        <b class="text-2xs sm:text-base text-white">Stof vrij leven</b><b class="text-white text-1xs hover:text-sm"><a href="">Click details</a></b>
+                                        <b class="text-2xs sm:text-base text-white">Stof vrij leven</b><b class="text-white text-1xs hover:text-sm" onclick="popUp(2)">Click details</b>
                                     </div>
                                     <div class="flex flex-row justify-between px-1 sm:px-2">
-                                        <b class="text-2xs sm:text-base text-white">Stof vrij en cool leven</b><b class="text-white text-1xs hover:text-sm"><a href="">Click details</a></b>
+                                        <b class="text-2xs sm:text-base text-white">Stof vrij en cool leven</b><b class="text-white text-1xs hover:text-sm" onclick="popUp(3)">Click details</b>
                                     </div>
                                     <div class="flex flex-row justify-between px-1 sm:px-2">
-                                        <b class="text-2xs sm:text-base text-white">Stof vrij, cool en geoptimaliseerd leven</b><b class="text-white text-1xs hover:text-sm"><a href="">Click details</a></b>
+                                        <b class="text-2xs sm:text-base text-white">Stof vrij, cool en geoptimaliseerd leven</b><b class="text-white text-1xs hover:text-sm" onclick="popUp(4)">Click details</b>
                                     </div>
                                 </p>
                             </div>
@@ -64,16 +65,16 @@
                                         <b class="text-base text-white">Desktop Reineging</b>
                                     </div>
                                     <div class="flex flex-row justify-between px-1 sm:px-2">
-                                        <b class="text-2xs sm:text-base text-white">General Diagnostics</b><b class="text-white text-1xs hover:text-sm"><a href="">Click details</a></b>
+                                        <b class="text-2xs sm:text-base text-white">General Diagnostics</b><b class="text-white text-1xs hover:text-sm" onclick="popUp(1)">Click details</b>
                                     </div>
                                     <div class="flex flex-row justify-between px-1 sm:px-2">
-                                        <b class="text-2xs sm:text-base text-white">Stof vrij leven</b><b class="text-white text-1xs hover:text-sm"><a href="">Click details</a></b>
+                                        <b class="text-2xs sm:text-base text-white">Stof vrij leven</b><b class="text-white text-1xs hover:text-sm" onclick="popUp(5)">Click details</b>
                                     </div>
                                     <div class="flex flex-row justify-between px-1 sm:px-2">
-                                        <b class="text-2xs sm:text-base text-white">Stof vrij en cool leven</b><b class="text-white text-1xs hover:text-sm"><a href="">Click details</a></b>
+                                        <b class="text-2xs sm:text-base text-white">Stof vrij en cool leven</b><b class="text-white text-1xs hover:text-sm" onclick="popUp(6)">Click details</b>
                                     </div>
                                     <div class="flex flex-row justify-between px-1 sm:px-2">
-                                        <b class="text-2xs sm:text-base text-white">Stof vrij, cool en geoptimaliseerd leven</b><b class="text-white text-1xs hover:text-sm"><a href="">Click details</a></b>
+                                        <b class="text-2xs sm:text-base text-white">Stof vrij, cool en geoptimaliseerd leven</b><b class="text-white text-1xs hover:text-sm" onclick="popUp(7)">Click details</b>
                                     </div>
                                 </p>
                             </div>
@@ -84,10 +85,10 @@
                                         <b class="text-base text-white">Telefoon/Tablet Reineging</b>
                                     </div>
                                     <div class="flex flex-row justify-between px-1 sm:px-2">
-                                        <b class="text-2xs sm:text-base text-white">General Diagnostics</b><b class="text-white text-1xs hover:text-sm"><a href="">Click details</a></b>
+                                        <b class="text-2xs sm:text-base text-white">General Diagnostics</b><b class="text-white text-1xs hover:text-sm" onclick="popUp(1)">Click details</b>
                                     </div>
                                     <div class="flex flex-row justify-between px-1 sm:px-2">
-                                        <b class="text-2xs sm:text-base text-white">Schoon en geoptimaliseerd leven</b><b class="text-white text-1xs hover:text-sm"><a href="">Click details</a></b>
+                                        <b class="text-2xs sm:text-base text-white">Schoon en geoptimaliseerd leven</b><b class="text-white text-1xs hover:text-sm"onclick="popUp(7)">Click details</b>
                                     </div>
                                 </p>
                             </div>
@@ -119,7 +120,7 @@
                                 <p class="flex flex-col text-white">
                                     <b class="text-center pt-1">Tarieven</b>
                                     <b class="text-center text-1xs sm:text-base">FREE !</b>
-                                    <b class="text-center text-1xs sm:text-base">29,- <b class="text-white text-1xs sm:text-base">incl BTW</b></b>
+                                    <b class="text-center text-1xs sm:text-base">19,- <b class="text-white text-1xs sm:text-base">incl BTW</b></b>
                                 </p>
                             </div>
                         </div>
@@ -144,6 +145,9 @@
                                         <b class="text-white">Laptop/Desktop Software</b>
                                     </div>
                                     <div class="flex flex-row justify-between px-1 sm:px-2">
+                                        <b class="text-2xs sm:text-base text-white">General Diagnostics</b><b class="text-white text-1xs hover:text-sm" onclick="popUp(1)">Click details</b>
+                                    </div>
+                                    <div class="flex flex-row justify-between px-1 sm:px-2">
                                         <b class="text-2xs sm:text-base text-white">Wachtwoord herstellen</b><b class="text-white text-1xs hover:text-sm"><a href="">Click details</a></b>
                                     </div>
                                     <div class="flex flex-row justify-between px-1 sm:px-2">
@@ -162,6 +166,9 @@
                                 <div class="flex flex-row justify-center px-2 pt-1">
                                     <b class="text-white">Telefoon/Tablat Software</b>
                                 </div>
+                                    <div class="flex flex-row justify-between px-1 sm:px-2">
+                                        <b class="text-2xs sm:text-base text-white">General Diagnostics</b><b class="text-white text-1xs hover:text-sm" onclick="popUp(1)">Click details</b>
+                                    </div>
                                 <div class="flex flex-row justify-between px-1 sm:px-2">
                                     <b class="text-2xs sm:text-base text-white">Wachtwoord herstellen</b><b class="text-white text-1xs hover:text-sm"><a href="">Click details</a></b>
                                 </div>
@@ -181,6 +188,7 @@
                             <div class="bg-green-500 rounded-b-xl rounded-tl-xl mb-4 h-full bg-gradient-to-r from-green-800 to-green-500">
                                 <p class="flex flex-col text-white">
                                     <b class="text-center pt-1">Tarieven</b>
+                                    <b class="text-center text-1xs sm:text-base">FREE !</b>
                                     <b class="text-center text-1xs sm:text-base">35,- <b class="text-white text-1xs sm:text-base">incl BTW</b></b>
                                     <b class="text-center text-1xs sm:text-base">35,- <b class="text-white text-1xs sm:text-base">incl BTW</b></b>
                                     <b class="text-center text-1xs sm:text-base">40,- <b class="text-white text-1xs sm:text-base">incl BTW</b></b>
@@ -191,6 +199,7 @@
                             <div class="bg-green-500 rounded-b-xl rounded-tl-xl h-full bg-gradient-to-r from-green-800 to-green-500">
                                 <p class="flex flex-col text-white">
                                     <b class="text-center pt-1">Tarieven</b>
+                                    <b class="text-center text-1xs sm:text-base">FREE !</b>
                                     <b class="text-center text-1xs sm:text-base">35,- <b class="text-white text-1xs sm:text-base">incl BTW</b></b>
                                     <b class="text-center text-1xs sm:text-base">19,- <b class="text-white text-1xs sm:text-base">incl BTW</b></b>
                                     <b class="text-center text-1xs sm:text-base">19,- <b class="text-white text-1xs sm:text-base">incl BTW</b></b>
@@ -218,6 +227,9 @@
                                     <b class="text-white">Adviseren</b>
                                 </div>
                                 <div class="flex flex-row justify-between px-1 sm:px-2">
+                                    <b class="text-2xs sm:text-base text-white">General Diagnostics</b><b class="text-white text-1xs hover:text-sm" onclick="popUp(1)">Click details</b>
+                                </div>
+                                <div class="flex flex-row justify-between px-1 sm:px-2">
                                     <b class="text-2xs sm:text-base text-white">Adviseren en consulting voor Telefoon</b><b class="text-white text-1xs hover:text-sm pr-1"><a href="">Click details</a></b>
                                 </div>
                                 <div class="flex flex-row justify-between px-1 sm:px-2">
@@ -234,6 +246,9 @@
                             <div class="bg-green-500 rounded-r-xl rounded-bl-xl mb-4 h-full bg-gradient-to-l from-green-800 to-green-500">
                                 <div class="flex flex-row justify-center px-2 pt-1">
                                     <b class="text-white">Hardware upgrades Laptop</b>
+                                </div>
+                                <div class="flex flex-row justify-between px-1 sm:px-2">
+                                    <b class="text-2xs sm:text-base text-white">General Diagnostics</b><b class="text-white text-1xs hover:text-sm" onclick="popUp(1)">Click details</b>
                                 </div>
                                 <div class="flex flex-row justify-between px-2">
                                     <b class="text-2xs sm:text-base text-white">Geheugen (RAM) Upgrades</b><b class="text-white text-1xs hover:text-sm"><a href="">Click details</a></b>
@@ -252,6 +267,9 @@
                             <div class="bg-green-500 rounded-r-xl rounded-bl-xl h-full bg-gradient-to-l from-green-800 to-green-500">
                                 <div class="flex flex-row justify-center px-2 pt-1">
                                     <b class="text-white">Hardware upgrades Desktop</b>
+                                </div>
+                                <div class="flex flex-row justify-between px-1 sm:px-2">
+                                    <b class="text-2xs sm:text-base text-white">General Diagnostics</b><b class="text-white text-1xs hover:text-sm" onclick="popUp(1)">Click details</b>
                                 </div>
                                 <div class="flex flex-row justify-between px-2">
                                     <b class="text-2xs sm:text-base text-white">Geheugen (RAM) Upgrades</b><b class="text-white text-1xs hover:text-sm"><a href="">Click details</a></b>
@@ -285,6 +303,7 @@
                             <div class="bg-green-500 rounded-b-xl rounded-tl-xl mb-4 h-fit bg-gradient-to-r from-green-800 to-green-500">
                                 <p class="flex flex-col text-white">
                                     <b class="text-center pt-1">Tarieven</b>
+                                    <b class="text-center text-1xs sm:text-base">FREE !</b>
                                     <b class="text-center text-1xs sm:text-base">39,- <b class="text-white text-1xs sm:text-base">incl BTW</b></b>
                                     <b class="text-center text-1xs sm:text-base">39,- <b class="text-white text-1xs sm:text-base">incl BTW</b></b>
                                     <b class="text-center text-1xs sm:text-base">39,- <b class="text-white text-1xs sm:text-base">incl BTW</b></b>
@@ -295,6 +314,7 @@
                             <div class="bg-green-500 rounded-b-xl rounded-tl-xl mb-4 h-fit bg-gradient-to-r from-green-800 to-green-500">
                                 <p class="flex flex-col text-white">
                                     <b class="text-center pt-1">Tarieven</b>
+                                    <b class="text-center text-1xs sm:text-base">FREE !</b>
                                     <b class="text-center text-1xs sm:text-base">29,- <b class="text-white text-1xs sm:text-base">incl BTW</b></b>
                                     <b class="text-center text-1xs sm:text-base">29,- <b class="text-white text-1xs sm:text-base">incl BTW</b></b>
                                     <b class="text-center text-1xs sm:text-base">29,- <b class="text-white text-1xs sm:text-base">incl BTW</b></b>
@@ -305,6 +325,7 @@
                             <div class="bg-green-500 rounded-b-xl rounded-tl-xl h-fit bg-gradient-to-r from-green-800 to-green-500">
                                 <p class="flex flex-col text-white">
                                     <b class="text-center pt-1">Tarieven</b>
+                                    <b class="text-center text-1xs sm:text-base">FREE !</b>
                                     <b class="text-center text-1xs sm:text-base">29,- <b class="text-white text-1xs sm:text-base">incl BTW</b></b>
                                     <b class="text-center text-1xs sm:text-base">29,- <b class="text-white text-1xs sm:text-base">incl BTW</b></b>
                                     <b class="text-center text-1xs sm:text-base">29,- <b class="text-white text-1xs sm:text-base">incl BTW</b></b>
@@ -323,9 +344,6 @@
             </div>
 
         </div>
-        @if (session()->has('GeneralDiagnostics'))
-            <?php echo "<script> window.addEventListener('DOMContentLoaded', (event) => { setTimeout(function() { alert('Een gratis diagnose houdt in dat we onderzoeken wat het probleem is, of er eventuele onderliggende kwesties zijn, en wat Flitserz voor u kan betekenen. We verstrekken ook informatie over de geschatte kosten van de benodigde diensten.'); }, 500); });</script>"; ?>
-        @endif
     </body>
 </html>
 
