@@ -3,6 +3,16 @@ function popUp(id) {
     var textVoorPopUp;
     var titleVoorPopUp;
 
+    //Ik weet dat dit ook in een DB kan alleen ik ben lui en daarom doe ik het zooooooooo. :) het kan namelijk ook met een API opgehaald worden en dan hoef ik niet eens een switch case te gebruiken.
+    //Want dan kan ik de id mee geven in de data base waardoor ik het kan ophalen incl informatie veel kortere code alleen dan moet ik wel een table aan maken met maar liefst 3 columns
+    //ID (Primary) titleVoorPopUp en textVoorPopUp 
+    //Dan kan ik met behulp van een API in JS deze data verwerken zelfde strategie met de ID
+
+    //En als positieve kant als je het opslaat in de DB kan je het user frendly maken door het aan te kunnen passen in een UI 
+
+    //Pretty cool :D
+
+    //Ookal is een switch case wel beter dan if else
 
     switch (id) {
         case 1:
@@ -33,15 +43,6 @@ function popUp(id) {
             titleVoorPopUp = 'Schoon en geoptimaliseerd leven Telefoon/Tablet';
             textVoorPopUp = 'Als je telefoon niet meer optimaal oplaadt, bieden wij de oplossing. Wij reinigen je telefoon grondig, zowel van binnen als van buiten, om ervoor te zorgen dat het laadproces weer probleemloos verloopt. Geef je telefoon een frisse start met onze schoonmaakdienst en ervaar het verschil.';
             break;
-
-
-
-
-
-
-
-
-
         default:
             break;
     }
